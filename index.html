@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SorteoApp</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketplace Local</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>SorteoApp</h1>
-    <p>Ingresa al sorteo:</p>
-    <input type="text" id="name" placeholder="Tu nombre">
-    <button onclick="addParticipant()">Participar</button>
+  <!-- Barra de búsqueda -->
+  <header>
+    <div class="barra-busqueda">
+      <input type="text" id="busqueda" placeholder="Buscar establecimientos...">
+      <button id="btnBuscar"><i class="fa fa-search"></i> Buscar</button>
+    </div>
+  </header>
 
-    <h2>Participantes</h2>
-    <ul id="participantsList"></ul>
+  <!-- Tablero de resultados -->
+  <div id="resultados" class="resultados-tablero"></div>
 
-    <h2>Ganador</h2>
-    <div id="digitalBoard">Nadie ha ganado aún</div>
-    <button onclick="pickWinner()">Elegir Ganador</button>
+  <!-- Contenido principal (tu página actual embebida) -->
+  <iframe src="https://tinyurl.com/DeliPlanYCCY" width="100%" height="100%" frameborder="0"></iframe>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
