@@ -1,90 +1,50 @@
-/* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
+html, body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  height: 100vh;
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Eliminar desbordamiento horizontal */
+  background-color: #fff;
 }
 
-/* Barra de búsqueda */
-.barra-busqueda {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-color: #d9232d; /* Color vinotinto inclinado a rojo */
+iframe {
+  display: block;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+#search-bar {
   position: fixed;
   top: 0;
-  width: 100%;
-  box-shadow: 0px 4px 2px -2px gray;
-  z-index: 100;
-}
-
-.barra-busqueda input {
-  width: 60%;
-  padding: 10px;
-  border-radius: 20px;
-  border: 2px solid black;
-  outline: none;
-}
-
-.barra-busqueda button {
-  margin-left: 10px;
-  padding: 10px 20px;
-  border-radius: 20px;
-  border: none;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-}
-
-.barra-busqueda button:hover {
-  background-color: #333;
-}
-
-/* Tablero de resultados */
-.resultados-tablero {
-  display: none; /* Oculto por defecto */
-  background-color: rgba(0, 0, 255, 0.6); /* Azul con transparencia del 60% */
-  border: 3px solid gold; /* Marco dorado */
-  padding: 20px;
-  border-radius: 10px;
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  z-index: 101;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Estilo para los resultados individuales */
-.resultado {
-  display: inline-block;
-  margin: 10px;
-  text-align: center;
-}
-
-.resultado img {
-  max-width: 100px;
-  max-height: 100px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  transition: transform 0.2s;
-}
-
-.resultado img:hover {
-  transform: scale(1.1);
-}
-
-/* Ajustes para el iframe de la app */
-#iframe {
-  position: fixed;
-  top: 60px; /* Debajo de la barra de búsqueda */
   left: 0;
   width: 100%;
-  height: calc(100vh - 60px);
-  border: none;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #a52a2a;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+#resultados {
+  position: fixed;
+  top: 80px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 255, 0.6);
+  border: 2px solid gold;
+  padding: 10px;
+  max-height: 60%;
+  overflow-y: auto;
+  border-radius: 15px;
+  z-index: 9999;
+}
+
+.result-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
