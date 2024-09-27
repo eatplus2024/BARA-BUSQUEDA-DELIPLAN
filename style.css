@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* Barra de búsqueda */
@@ -75,4 +77,14 @@ body {
 
 .resultado img:hover {
   transform: scale(1.1);
+}
+
+/* Ajustes para el iframe de la app */
+#iframe {
+  position: fixed;
+  top: 60px; /* Debajo de la barra de búsqueda */
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  border: none;
 }
