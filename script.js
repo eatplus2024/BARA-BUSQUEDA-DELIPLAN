@@ -8,8 +8,8 @@ document.getElementById('btnBuscar').addEventListener('click', function() {
 
 // Función para hacer la búsqueda en el backend de Glitch
 function buscarEstablecimientos(consulta) {
-  // Realiza una solicitud al servidor Glitch
-  fetch(`https://tu-glitch-project-url.glitch.me/buscar?q=${consulta}`)
+  // Asegúrate de usar la URL correcta de tu proyecto Glitch
+  fetch(`https://fantasy-persistent-salmonberry.glitch.me/buscar?q=${consulta}`)
     .then(response => {
       if (response.ok) {
         return response.json();
