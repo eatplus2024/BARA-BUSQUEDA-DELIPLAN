@@ -1,48 +1,51 @@
-let participants = [];
+// Detectar el clic en el botón de búsqueda
+document.getElementById('btnBuscar').addEventListener('click', function() {
+  const consulta = document.getElementById('busqueda').value.trim().toLowerCase();
+  if (consulta) {
+    buscarEstablecimientos(consulta);
+  }
+});
 
-function addParticipant() {
-    const name = document.getElementById('name').value;
-    if (name) {
-        participants.push(name);
-        updateParticipantsList();
-        document.getElementById('name').value = '';
-    } else {
-        alert("Por favor, ingresa un nombre.");
-    }
-}
-
-function updateParticipantsList() {
-    const list = document.getElementById('participantsList');
-    list.innerHTML = '';
-    participants.forEach(participant => {
-        const li = document.createElement('li');
-        li.textContent = participant;
-        list.appendChild(li);
+// Función para hacer la búsqueda en el backend de Glitch
+function buscarEstablecimientos(consulta) {
+  // Realiza una solicitud al servidor Glitch
+  fetch(`https://tu-glitch-project-url.glitch.me/buscar?q=${consulta}`)
+    .then(response => {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error('No se encontraron resultados');
+      }
+    })
+    .then(resultados => {
+      mostrarResultados(resultados);
+    })
+    .catch(error => {
+      mostrarError(error.message);
     });
 }
 
-function pickWinner() {
-    if (participants.length === 0) {
-        alert("No hay participantes para el sorteo.");
-        return;
-    }
+// Función para mostrar los resultados en el tablero
+function mostrarResultados(resultados) {
+  const contenedor = document.getElementById('resultados');
+  contenedor.innerHTML = ''; // Limpiar resultados anteriores
+  contenedor.style.display = 'block'; // Mostrar el tablero
 
-    const digitalBoard = document.getElementById('digitalBoard');
-    let currentIndex = 0;
-    const speed = 100; // Velocidad de cambio de nombre en milisegundos
-    const duration = 5000; // Duración total del efecto en milisegundos
+  resultados.forEach(boton => {
+    const botonHTML = `
+      <div class="resultado">
+        <a href="${boton.link}" target="_blank">
+          <img src="${boton.url}" alt="${boton.nombre}">
+        </a>
+      </div>
+    `;
+    contenedor.innerHTML += botonHTML;
+  });
+}
 
-    digitalBoard.classList.remove('winner');
-
-    const interval = setInterval(() => {
-        digitalBoard.textContent = participants[currentIndex];
-        currentIndex = (currentIndex + 1) % participants.length;
-    }, speed);
-
-    setTimeout(() => {
-        clearInterval(interval);
-        const winnerIndex = Math.floor(Math.random() * participants.length);
-        digitalBoard.textContent = `¡El ganador es: ${participants[winnerIndex]}!`;
-        digitalBoard.classList.add('winner');
-    }, duration);
+// Función para mostrar un error si no se encuentran resultados
+function mostrarError(mensaje) {
+  const contenedor = document.getElementById('resultados');
+  contenedor.innerHTML = `<p>${mensaje}</p>`;
+  contenedor.style.display = 'block';
 }
