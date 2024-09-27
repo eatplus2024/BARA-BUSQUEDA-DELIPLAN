@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marketplace Local</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercio Local - Búsqueda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Barra de búsqueda -->
-  <header>
-    <div class="barra-busqueda">
-      <input type="text" id="busqueda" placeholder="Buscar establecimientos...">
-      <button id="btnBuscar"><i class="fa fa-search"></i> Buscar</button>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Buscar establecimientos...">
+        <button id="search-btn">
+            <img src="https://image.flaticon.com/icons/png/512/49/49116.png" alt="Buscar" class="search-icon">
+        </button>
     </div>
-  </header>
+    <iframe id="app-frame" src="https://eatcomercial01.wixsite.com/website-1/nuevo-dise%C3%B1o" frameborder="0"></iframe>
+    <div id="search-results"></div>
 
-  <!-- Tablero de resultados -->
-  <div id="resultados" class="resultados-tablero"></div>
-
-  <!-- Contenido principal (la app embebida) -->
-  <iframe id="appFrame" src="https://eatcomercial01.wixsite.com/website-1/nuevo-dise%C3%B1o" frameborder="0"></iframe>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
