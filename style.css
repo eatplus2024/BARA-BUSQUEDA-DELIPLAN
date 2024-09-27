@@ -1,69 +1,78 @@
+/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #6c98fe;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 }
 
-h1 {
-  color: #333;
-}
-
-input, button {
-  padding: 10px;
-  margin: 10px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  background-color: #fff;
-  margin: 5px;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-#digitalBoard {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
-  width: 50%; /* La mitad del ancho de la pantalla */
-  height: 50%; /* La mitad de la altura de la pantalla */
-  margin: auto;
-  position: relative;
-  color: #333;
-  background-color: #f9f9f9;
-  padding: 10px;
-  border-radius: 5px;
-  min-height: 40px;
+/* Barra de búsqueda */
+.barra-busqueda {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  padding: 15px;
+  background-color: #d9232d; /* Color vinotinto inclinado a rojo */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 4px 2px -2px gray;
+  z-index: 100;
 }
 
-#digitalBoard.winner {
-  background-color: #FFD700; /* Color dorado */
-  color: #fff;
-  font-size: 24px;
-  width: 50%; /* La mitad del ancho de la pantalla */
-  height: 50%; /* La mitad de la altura de la pantalla */
-  margin: auto;
-  position: relative;
+.barra-busqueda input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+  outline: none;
 }
 
-#digitalBoard.winner::after {
-  content: "🎉🎉🎁🎁";
+.barra-busqueda button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.barra-busqueda button:hover {
+  background-color: #333;
+}
+
+/* Tablero de resultados */
+.resultados-tablero {
+  display: none; /* Oculto por defecto */
+  background-color: rgba(0, 0, 255, 0.6); /* Azul con transparencia del 60% */
+  border: 3px solid gold; /* Marco dorado */
+  padding: 20px;
+  border-radius: 10px;
   position: absolute;
-  font-size: 30px;
-  top: -30px;
-  left: calc(50% - 45px);
-  animation: sparkle 1s infinite alternate;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  z-index: 101;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-@keyframes sparkle {
-  from {
+/* Estilo para los resultados individuales */
+.resultado {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.resultado img {
+  max-width: 100px;
+  max-height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.resultado img:hover {
+  transform: scale(1.1);
+}
