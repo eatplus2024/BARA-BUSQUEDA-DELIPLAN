@@ -1,17 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Comercio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
   <!-- Barra de búsqueda -->
-  <header>
-    <div class="barra-busqueda">
-      <input type="text" id="busqueda" placeholder="Buscar establecimientos...">
-      <button id="btnBuscar">Buscar</button>
-    </div>
-  </header>
+  <div class="search-container">
+    <input id="search-bar" type="text" placeholder="Buscar..." />
+    <button id="search-btn"><img class="search-icon" src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Buscar" /></button>
+  </div>
 
-  <!-- Contenedor para los resultados -->
-  <div id="resultados" class="resultados-tablero"></div>
+  <!-- Contenedor de resultados -->
+  <div id="search-results"></div>
 
-  <!-- Contenido principal -->
-  <iframe id="appFrame" src="https://eatcomercial01.wixsite.com/website-1/nuevo-dise%C3%B1o"></iframe>
+  <!-- App de comercio -->
+  <iframe id="app-frame" src="https://eatcomercial01.wixsite.com/website-1/nuevo-dise%C3%B1o"></iframe>
 
   <script src="script.js"></script>
 </body>
+</html>
