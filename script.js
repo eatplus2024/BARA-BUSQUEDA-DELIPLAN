@@ -1,36 +1,32 @@
-document.getElementById('search-btn').addEventListener('click', function() {
-    let query = document.getElementById('search-bar').value.toLowerCase();
+async function fetchButtons() {
+  try {
+    const response = await fetch('buttons.json');
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error al cargar los botones:", error);
+    return [];
+  }
+}
 
-    let resultsContainer = document.getElementById('search-results');
-    resultsContainer.innerHTML = "Buscando...";
-    resultsContainer.style.display = "block";
+async function search() {
+  const query = document.getElementById("search-input").value.toLowerCase();
+  const buttons = await fetchButtons();
+  const resultsContainer = document.getElementById("results");
+  resultsContainer.innerHTML = "";
 
-    fetch(`https://fantasy-persistent-salmonberry.glitch.me/search?q=${query}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Failed to fetch');
-            }
-            return response.json();
-        })
-        .then(data => {
-            resultsContainer.innerHTML = "";
-            if (data.length > 0) {
-                data.forEach(boton => {
-                    let buttonElement = document.createElement('img');
-                    buttonElement.src = boton.url;
-                    buttonElement.alt = boton.nombre;
-                    buttonElement.style.width = "200px";
-                    buttonElement.style.cursor = "pointer";
-                    buttonElement.addEventListener('click', function() {
-                        window.location.href = boton.url;
-                    });
-                    resultsContainer.appendChild(buttonElement);
-                });
-            } else {
-                resultsContainer.innerHTML = "No se encontraron resultados.";
-            }
-        })
-        .catch(error => {
-            resultsContainer.innerHTML = "Error en la búsqueda.";
-        });
-});
+  const results = buttons.filter(button =>
+    button.keywords.some(keyword => keyword.includes(query))
+  );
+
+  if (results.length > 0) {
+    results.forEach(button => {
+      const resultItem = document.createElement("div");
+      resultItem.className = "result-item";
+      resultItem.innerHTML = `<a href="${button.url}" target="_blank">${button.name}</a>`;
+      resultsContainer.appendChild(resultItem);
+    });
+  } else {
+    resultsContainer.innerHTML = "<p>No se encontraron resultados.</p>";
+  }
+}
