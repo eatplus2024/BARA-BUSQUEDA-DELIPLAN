@@ -1,7 +1,7 @@
 const images = {
     Nature: [
-        { src: "https://source.unsplash.com/300x200/?nature,forest", alt: "Forest" },
-        { src: "https://source.unsplash.com/300x200/?nature,waterfall", alt: "Waterfall" },
+        { src: "https://scontent.fpei2-2.fna.fbcdn.net/v/t39.30808-6/467370816_1103581135107141_3831666806524366531_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9xBrbr8OlFYQ7kNvgFVnRWX&_nc_zt=23&_nc_ht=scontent.fpei2-2.fna&_nc_gid=AeyvP-tFAU5zijSDC8PFR9A&oh=00_AYAklQbaC1nOzZlsMi_SXSaLOmwOgqubKZgdB6SOnNSUyA&oe=67402FEE", alt: "Forest" },
+        { src: "https://www.facebook.com/photo?fbid=1103581101773811&set=pcb.1103581125107142", alt: "Waterfall" },
         { src: "https://source.unsplash.com/300x200/?nature,mountains", alt: "Mountains" },
     ],
     Food: [
