@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Image Gallery</title>
+    <title>BUSCAR EN DELIPLAN</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Search in DeliPlan</h1>
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Search for categories or images...">
-            <button onclick="filterImages()">Search</button>
+    <div class="main-container">
+        <h1>BUSCAR EN DELIPLAN</h1>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Escribe lo que necesitas...">
+            <button id="searchButton">Buscar</button>
         </div>
-    </header>
-    <main id="gallery"></main>
+        <div id="results">
+            <h2>Comidas</h2>
+            <div class="category-row" id="comidas">
+                <!-- Imágenes de comidas -->
+            </div>
+            <h2>Agua</h2>
+            <div class="category-row" id="agua">
+                <!-- Imágenes de agua -->
+            </div>
+            <h2>Naturaleza</h2>
+            <div class="category-row" id="naturaleza">
+                <!-- Imágenes de naturaleza -->
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
