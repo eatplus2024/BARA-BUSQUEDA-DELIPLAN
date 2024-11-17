@@ -1,47 +1,76 @@
-const categories = {
-    food: [
-        { url: 'https://via.placeholder.com/300?text=Food+1', link: 'https://example.com/food1' },
-        { url: 'https://via.placeholder.com/300?text=Food+2', link: 'https://example.com/food2' },
-        { url: 'https://via.placeholder.com/300?text=Food+3', link: 'https://example.com/food3' },
+const images = {
+    Nature: [
+        { src: "https://source.unsplash.com/300x200/?nature,forest", alt: "Forest" },
+        { src: "https://source.unsplash.com/300x200/?nature,waterfall", alt: "Waterfall" },
+        { src: "https://source.unsplash.com/300x200/?nature,mountains", alt: "Mountains" },
     ],
-    water: [
-        { url: 'https://via.placeholder.com/300?text=Water+1', link: 'https://example.com/water1' },
-        { url: 'https://via.placeholder.com/300?text=Water+2', link: 'https://example.com/water2' },
-        { url: 'https://via.placeholder.com/300?text=Water+3', link: 'https://example.com/water3' },
+    Food: [
+        { src: "https://source.unsplash.com/300x200/?food,burger", alt: "Burger" },
+        { src: "https://source.unsplash.com/300x200/?food,pizza", alt: "Pizza" },
+        { src: "https://source.unsplash.com/300x200/?food,salad", alt: "Salad" },
     ],
-    nature: [
-        { url: 'https://via.placeholder.com/300?text=Nature+1', link: 'https://example.com/nature1' },
-        { url: 'https://via.placeholder.com/300?text=Nature+2', link: 'https://example.com/nature2' },
-        { url: 'https://via.placeholder.com/300?text=Nature+3', link: 'https://example.com/nature3' },
-    ],
+    Animals: [
+        { src: "https://source.unsplash.com/300x200/?animals,dog", alt: "Dog" },
+        { src: "https://source.unsplash.com/300x200/?animals,cat", alt: "Cat" },
+        { src: "https://source.unsplash.com/300x200/?animals,elephant", alt: "Elephant" },
+    ]
 };
 
-function loadImages() {
-    Object.keys(categories).forEach(category => {
-        const gallery = document.getElementById(`${category}-gallery`);
-        categories[category].forEach(item => {
-            const img = document.createElement('img');
-            img.src = item.url;
-            img.alt = category;
-            img.onclick = () => window.open(item.link, '_blank');
-            gallery.appendChild(img);
+function loadGallery() {
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = "";
+    Object.keys(images).forEach(category => {
+        const categoryTitle = document.createElement("div");
+        categoryTitle.className = "category-title";
+        categoryTitle.textContent = category;
+        gallery.appendChild(categoryTitle);
+
+        const row = document.createElement("div");
+        row.className = "gallery-row";
+        images[category].forEach(image => {
+            const img = document.createElement("img");
+            img.src = image.src;
+            img.alt = image.alt;
+            row.appendChild(img);
         });
+        gallery.appendChild(row);
     });
 }
 
 function filterImages() {
-    const query = document.getElementById('search-input').value.toLowerCase();
-    Object.keys(categories).forEach(category => {
-        const gallery = document.getElementById(`${category}-gallery`);
-        const images = gallery.querySelectorAll('img');
-        images.forEach(img => {
-            const match = categories[category].some(
-                item => item.url.includes(query) || item.link.includes(query)
-            );
-            img.style.display = match ? 'block' : 'none';
-        });
+    const query = document.getElementById("searchInput").value.toLowerCase();
+    const filteredImages = {};
+    Object.keys(images).forEach(category => {
+        const matchingImages = images[category].filter(image =>
+            image.alt.toLowerCase().includes(query) || category.toLowerCase().includes(query)
+        );
+        if (matchingImages.length > 0) {
+            filteredImages[category] = matchingImages;
+        }
     });
+
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = "";
+    if (Object.keys(filteredImages).length > 0) {
+        Object.keys(filteredImages).forEach(category => {
+            const categoryTitle = document.createElement("div");
+            categoryTitle.className = "category-title";
+            categoryTitle.textContent = category;
+            gallery.appendChild(categoryTitle);
+
+            const row = document.createElement("div");
+            row.className = "gallery-row";
+            filteredImages[category].forEach(image => {
+                const img = document.createElement("img");
+                img.src = image.src;
+                img.alt = image.alt;
+                row.appendChild(img);
+            });
+            gallery.appendChild(row);
+        });
+    } else {
+        gallery.innerHTML = "<p>No results found.</p>";
+    }
 }
 
-document.getElementById('search-button').addEventListener('click', filterImages);
-window.onload = loadImages;
+document.addEventListener("DOMContentLoaded", loadGallery);
