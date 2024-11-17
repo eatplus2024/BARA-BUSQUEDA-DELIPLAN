@@ -1,95 +1,45 @@
-// Definir categorías e imágenes
-const categories = {
-    Comidas: [
-        { title: "Pizza", src: "https://source.unsplash.com/300x200/?pizza" },
-        { title: "Hamburguesa", src: "https://source.unsplash.com/300x200/?burger" },
-        { title: "Postre", src: "https://source.unsplash.com/300x200/?dessert" }
-    ],
-    Agua: [
-        { title: "Lago", src: "https://source.unsplash.com/300x200/?lake" },
-        { title: "Río", src: "https://source.unsplash.com/300x200/?river" },
-        { title: "Océano", src: "https://source.unsplash.com/300x200/?ocean" }
-    ],
-    Naturaleza: [
-        { title: "Bosque", src: "https://source.unsplash.com/300x200/?forest" },
-        { title: "Montañas", src: "https://source.unsplash.com/300x200/?mountains" },
-        { title: "Playa", src: "https://source.unsplash.com/300x200/?beach" }
-    ]
-};
+const images = [
+    { src: "image1.jpg", alt: "Image 1", category: "Nature" },
+    { src: "image2.jpg", alt: "Image 2", category: "Nature" },
+    { src: "image3.jpg", alt: "Image 3", category: "Architecture" },
+    { src: "image4.jpg", alt: "Image 4", category: "Animals" },
+    { src: "image5.jpg", alt: "Image 5", category: "Abstract" },
+];
 
-// Función para cargar categorías e imágenes
-function loadGallery() {
+function displayImages(filteredImages) {
     const gallery = document.getElementById("gallery");
-    gallery.innerHTML = ""; // Limpiar contenido previo
-
-    Object.keys(categories).forEach(category => {
-        // Crear contenedor de categoría
-        const categoryContainer = document.createElement("div");
-        categoryContainer.classList.add("category");
-
-        // Agregar título de categoría
-        const title = document.createElement("h2");
-        title.textContent = category;
-        categoryContainer.appendChild(title);
-
-        // Crear contenedor de imágenes
-        const imageGrid = document.createElement("div");
-        imageGrid.classList.add("image-grid");
-
-        // Agregar imágenes
-        categories[category].forEach(image => {
-            const imgElement = document.createElement("img");
-            imgElement.src = image.src;
-            imgElement.alt = image.title;
-            imgElement.title = image.title;
-            imageGrid.appendChild(imgElement);
-        });
-
-        categoryContainer.appendChild(imageGrid);
-        gallery.appendChild(categoryContainer);
-    });
-}
-
-// Función para filtrar imágenes
-function filterImages() {
-    const query = document.getElementById("searchInput").value.toLowerCase();
-    const gallery = document.getElementById("gallery");
-    gallery.innerHTML = ""; // Limpiar contenido previo
-
-    Object.keys(categories).forEach(category => {
-        // Verificar si el nombre de la categoría o las imágenes coinciden con la búsqueda
-        const matchingImages = categories[category].filter(image =>
-            category.toLowerCase().includes(query) || image.title.toLowerCase().includes(query)
-        );
-
-        if (matchingImages.length > 0) {
-            const categoryContainer = document.createElement("div");
-            categoryContainer.classList.add("category");
-
-            const title = document.createElement("h2");
-            title.textContent = category;
-            categoryContainer.appendChild(title);
-
-            const imageGrid = document.createElement("div");
-            imageGrid.classList.add("image-grid");
-
-            matchingImages.forEach(image => {
-                const imgElement = document.createElement("img");
-                imgElement.src = image.src;
-                imgElement.alt = image.title;
-                imgElement.title = image.title;
-                imageGrid.appendChild(imgElement);
+    gallery.innerHTML = "";
+    const categories = [...new Set(filteredImages.map(image => image.category))];
+    categories.forEach(category => {
+        const categoryTitle = document.createElement("div");
+        categoryTitle.className = "category-title";
+        categoryTitle.textContent = category;
+        gallery.appendChild(categoryTitle);
+        const row = document.createElement("div");
+        row.className = "gallery-row";
+        filteredImages
+            .filter(image => image.category === category)
+            .forEach(image => {
+                const img = document.createElement("img");
+                img.src = image.src;
+                img.alt = image.alt;
+                img.title = image.alt;
+                row.appendChild(img);
             });
-
-            categoryContainer.appendChild(imageGrid);
-            gallery.appendChild(categoryContainer);
-        }
+        gallery.appendChild(row);
     });
-
-    if (gallery.innerHTML === "") {
-        gallery.innerHTML = "<p>No se encontraron resultados.</p>";
-    }
 }
 
-// Cargar la galería al iniciar
-window.onload = loadGallery;
+function filterImages() {
+    const searchInput = document.getElementById("searchInput").value.toLowerCase();
+    const filteredImages = images.filter(
+        image =>
+            image.category.toLowerCase().includes(searchInput) ||
+            image.alt.toLowerCase().includes(searchInput)
+    );
+    displayImages(filteredImages);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    displayImages(images);
+});
