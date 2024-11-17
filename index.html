@@ -3,61 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscar en DeliPlan</title>
+    <title>BUSCAR EN DELIPLAN</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>BUSCAR EN DELIPLAN</h1>
         <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="¿Qué estás buscando?">
+            <input type="text" id="searchInput" placeholder="Busca lo que necesitas...">
             <button onclick="search()">Buscar</button>
         </div>
     </header>
+
     <main>
-        <section id="comidas" class="category">
+        <section class="category">
             <h2>Comidas</h2>
-            <div class="image-grid">
-                <a href="https://unsplash.com/photos/LrMWHKqilUw" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?food,1" alt="Comida 1">
-                </a>
-                <a href="https://unsplash.com/photos/pNvKZlPVEbQ" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?food,2" alt="Comida 2">
-                </a>
-                <a href="https://unsplash.com/photos/Z-WVRB3Gsnk" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?food,3" alt="Comida 3">
-                </a>
-            </div>
+            <div class="image-grid" id="comidas"></div>
         </section>
-        <section id="agua" class="category">
+
+        <section class="category">
             <h2>Agua</h2>
-            <div class="image-grid">
-                <a href="https://unsplash.com/photos/dqyBjzvFu8g" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?water,1" alt="Agua 1">
-                </a>
-                <a href="https://unsplash.com/photos/Vl4ZXD4AJBo" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?water,2" alt="Agua 2">
-                </a>
-                <a href="https://unsplash.com/photos/YO43o_LDbts" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?water,3" alt="Agua 3">
-                </a>
-            </div>
+            <div class="image-grid" id="agua"></div>
         </section>
-        <section id="naturaleza" class="category">
+
+        <section class="category">
             <h2>Naturaleza</h2>
-            <div class="image-grid">
-                <a href="https://unsplash.com/photos/tgbSbrArHcU" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?nature,1" alt="Naturaleza 1">
-                </a>
-                <a href="https://unsplash.com/photos/iw_xdhsUIw4" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?nature,2" alt="Naturaleza 2">
-                </a>
-                <a href="https://unsplash.com/photos/fAcCK3R3N6g" target="_blank">
-                    <img src="https://source.unsplash.com/featured/?nature,3" alt="Naturaleza 3">
-                </a>
-            </div>
+            <div class="image-grid" id="naturaleza"></div>
         </section>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
