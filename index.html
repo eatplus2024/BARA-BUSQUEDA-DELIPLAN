@@ -3,33 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BUSCAR EN DELIPLAN</title>
+    <title>Galería DeliPlan</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>BUSCAR EN DELIPLAN</h1>
+        <h1>Galería de Imágenes</h1>
         <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Busca lo que necesitas...">
-            <button onclick="search()">Buscar</button>
+            <input type="text" id="searchInput" placeholder="Busca una categoría o imagen...">
+            <button onclick="filterImages()">Buscar</button>
         </div>
     </header>
 
-    <main>
-        <section class="category">
-            <h2>Comidas</h2>
-            <div class="image-grid" id="comidas"></div>
-        </section>
-
-        <section class="category">
-            <h2>Agua</h2>
-            <div class="image-grid" id="agua"></div>
-        </section>
-
-        <section class="category">
-            <h2>Naturaleza</h2>
-            <div class="image-grid" id="naturaleza"></div>
-        </section>
+    <main id="gallery">
+        <!-- Las categorías e imágenes se cargarán dinámicamente -->
     </main>
 
     <script src="script.js"></script>
