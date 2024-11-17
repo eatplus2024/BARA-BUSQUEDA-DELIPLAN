@@ -3,72 +3,77 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    text-align: center;
+    color: #333;
 }
 
 header {
-    background-color: #343a40;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
     color: white;
-    padding: 20px 10px;
 }
 
-header h1 {
-    font-size: 2.5em;
+h1 {
     margin: 0;
+    font-size: 2.5rem;
 }
 
 .search-bar {
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .search-bar input {
     padding: 10px;
-    font-size: 1em;
-    border-radius: 20px;
     border: 3px solid white;
-    outline: none;
+    border-radius: 20px 0 0 20px;
     width: 60%;
+    font-size: 1rem;
 }
 
 .search-bar button {
     padding: 10px 20px;
-    font-size: 1em;
     border: none;
-    border-radius: 20px;
     background-color: gold;
     color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0 20px 20px 0;
     cursor: pointer;
-    margin-left: 10px;
+    transition: 0.3s ease;
 }
 
 .search-bar button:hover {
-    background-color: darkgoldenrod;
+    background-color: red;
 }
 
 main {
     padding: 20px;
 }
 
-.category-title {
-    font-size: 2em;
-    margin: 20px 0 10px;
+.category {
+    margin: 20px 0;
 }
 
-.gallery-row {
+.category h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.gallery {
     display: flex;
-    justify-content: center;
-    gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    gap: 10px;
 }
 
-.gallery-row img {
-    width: 30%;
-    border-radius: 10px;
+.gallery img {
+    width: calc(33% - 10px);
+    border-radius: 5px;
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
 }
 
-.gallery-row img:hover {
+.gallery img:hover {
     transform: scale(1.1);
 }
