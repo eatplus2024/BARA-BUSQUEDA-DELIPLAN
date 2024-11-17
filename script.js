@@ -1,44 +1,95 @@
-// Datos de imágenes por categoría
-const images = {
-    comidas: [
-        { src: "https://source.unsplash.com/300x200/?food", link: "https://unsplash.com/s/photos/food" },
-        { src: "https://source.unsplash.com/300x200/?pizza", link: "https://unsplash.com/s/photos/pizza" },
-        { src: "https://source.unsplash.com/300x200/?burger", link: "https://unsplash.com/s/photos/burger" }
+// Definir categorías e imágenes
+const categories = {
+    Comidas: [
+        { title: "Pizza", src: "https://source.unsplash.com/300x200/?pizza" },
+        { title: "Hamburguesa", src: "https://source.unsplash.com/300x200/?burger" },
+        { title: "Postre", src: "https://source.unsplash.com/300x200/?dessert" }
     ],
-    agua: [
-        { src: "https://source.unsplash.com/300x200/?water", link: "https://unsplash.com/s/photos/water" },
-        { src: "https://source.unsplash.com/300x200/?river", link: "https://unsplash.com/s/photos/river" },
-        { src: "https://source.unsplash.com/300x200/?lake", link: "https://unsplash.com/s/photos/lake" }
+    Agua: [
+        { title: "Lago", src: "https://source.unsplash.com/300x200/?lake" },
+        { title: "Río", src: "https://source.unsplash.com/300x200/?river" },
+        { title: "Océano", src: "https://source.unsplash.com/300x200/?ocean" }
     ],
-    naturaleza: [
-        { src: "https://source.unsplash.com/300x200/?nature", link: "https://unsplash.com/s/photos/nature" },
-        { src: "https://source.unsplash.com/300x200/?forest", link: "https://unsplash.com/s/photos/forest" },
-        { src: "https://source.unsplash.com/300x200/?mountains", link: "https://unsplash.com/s/photos/mountains" }
+    Naturaleza: [
+        { title: "Bosque", src: "https://source.unsplash.com/300x200/?forest" },
+        { title: "Montañas", src: "https://source.unsplash.com/300x200/?mountains" },
+        { title: "Playa", src: "https://source.unsplash.com/300x200/?beach" }
     ]
 };
 
-// Función para cargar imágenes en el HTML
-function loadImages() {
-    Object.keys(images).forEach(category => {
-        const container = document.getElementById(category);
-        images[category].forEach(image => {
-            const imgElement = document.createElement("a");
-            imgElement.href = image.link;
-            imgElement.target = "_blank";
-            imgElement.innerHTML = `<img src="${image.src}" alt="${category}">`;
-            container.appendChild(imgElement);
+// Función para cargar categorías e imágenes
+function loadGallery() {
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = ""; // Limpiar contenido previo
+
+    Object.keys(categories).forEach(category => {
+        // Crear contenedor de categoría
+        const categoryContainer = document.createElement("div");
+        categoryContainer.classList.add("category");
+
+        // Agregar título de categoría
+        const title = document.createElement("h2");
+        title.textContent = category;
+        categoryContainer.appendChild(title);
+
+        // Crear contenedor de imágenes
+        const imageGrid = document.createElement("div");
+        imageGrid.classList.add("image-grid");
+
+        // Agregar imágenes
+        categories[category].forEach(image => {
+            const imgElement = document.createElement("img");
+            imgElement.src = image.src;
+            imgElement.alt = image.title;
+            imgElement.title = image.title;
+            imageGrid.appendChild(imgElement);
         });
+
+        categoryContainer.appendChild(imageGrid);
+        gallery.appendChild(categoryContainer);
     });
 }
 
-// Función de búsqueda (filtra por título de categoría)
-function search() {
+// Función para filtrar imágenes
+function filterImages() {
     const query = document.getElementById("searchInput").value.toLowerCase();
-    document.querySelectorAll(".category").forEach(section => {
-        const title = section.querySelector("h2").textContent.toLowerCase();
-        section.style.display = title.includes(query) ? "block" : "none";
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = ""; // Limpiar contenido previo
+
+    Object.keys(categories).forEach(category => {
+        // Verificar si el nombre de la categoría o las imágenes coinciden con la búsqueda
+        const matchingImages = categories[category].filter(image =>
+            category.toLowerCase().includes(query) || image.title.toLowerCase().includes(query)
+        );
+
+        if (matchingImages.length > 0) {
+            const categoryContainer = document.createElement("div");
+            categoryContainer.classList.add("category");
+
+            const title = document.createElement("h2");
+            title.textContent = category;
+            categoryContainer.appendChild(title);
+
+            const imageGrid = document.createElement("div");
+            imageGrid.classList.add("image-grid");
+
+            matchingImages.forEach(image => {
+                const imgElement = document.createElement("img");
+                imgElement.src = image.src;
+                imgElement.alt = image.title;
+                imgElement.title = image.title;
+                imageGrid.appendChild(imgElement);
+            });
+
+            categoryContainer.appendChild(imageGrid);
+            gallery.appendChild(categoryContainer);
+        }
     });
+
+    if (gallery.innerHTML === "") {
+        gallery.innerHTML = "<p>No se encontraron resultados.</p>";
+    }
 }
 
-// Cargar las imágenes al iniciar la página
-window.onload = loadImages;
+// Cargar la galería al iniciar
+window.onload = loadGallery;
