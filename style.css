@@ -1,82 +1,74 @@
-/* General */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f8f9fa;
+    text-align: center;
 }
 
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
+    background-color: #343a40;
     color: white;
+    padding: 20px 10px;
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 2.5em;
     margin: 0;
 }
 
 .search-bar {
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 }
 
 .search-bar input {
     padding: 10px;
-    width: 70%;
-    max-width: 400px;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: 2px solid #ccc;
+    font-size: 1em;
+    border-radius: 20px;
+    border: 3px solid white;
+    outline: none;
+    width: 60%;
 }
 
 .search-bar button {
-    padding: 10px 15px;
-    font-size: 1rem;
-    color: white;
-    background-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1em;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
+    background-color: gold;
+    color: white;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .search-bar button:hover {
-    background-color: #0056b3;
+    background-color: darkgoldenrod;
 }
 
-/* Galería */
 main {
     padding: 20px;
 }
 
-.category {
-    margin-bottom: 30px;
+.category-title {
+    font-size: 2em;
+    margin: 20px 0 10px;
 }
 
-.category h2 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 10px;
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px;
-}
-
-.image-grid img {
-    width: 100%;
+.gallery-row img {
+    width: 30%;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s;
 }
 
-.image-grid img:hover {
-    transform: scale(1.05);
+.gallery-row img:hover {
+    transform: scale(1.1);
 }
