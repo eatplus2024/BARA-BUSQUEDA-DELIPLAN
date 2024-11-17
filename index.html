@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
+    <title>Search in DeliPlan</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Image Gallery</h1>
+        <h1>SEARCH IN DELIPLAN</h1>
         <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Search for categories or images...">
-            <button onclick="filterImages()">Search</button>
+            <input type="text" id="search-input" placeholder="What are you looking for?">
+            <button id="search-button">Search</button>
         </div>
     </header>
-    <main id="gallery"></main>
-    <script src="script.js"></script>
+    <main>
+        <section class="category" id="food">
+            <h2>Food</h2>
+            <div class="gallery" id="food-gallery"></div>
+        </section>
+        <section class="category" id="water">
+            <h2>Water</h2>
+            <div class="gallery" id="water-gallery"></div>
+        </section>
+        <section class="category" id="nature">
+            <h2>Nature</h2>
+            <div class="gallery" id="nature-gallery"></div>
+        </section>
+    </main>
 </body>
 </html>
