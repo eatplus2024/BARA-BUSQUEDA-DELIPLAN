@@ -1,45 +1,72 @@
-const imageLinks = {
-    comidas: [
-        "https://w7.pngwing.com/pngs/195/337/png-transparent-three-dimensional-square-background-texture-angle-other-thumbnail.png",
-        "https://w7.pngwing.com/pngs/114/579/png-transparent-pink-cross-stroke-ink-brush-pen-red-ink-brush-ink-leave-the-material-text-thumbnail.png",
-        "https://w7.pngwing.com/pngs/820/953/png-transparent-love-hearts-love-hearts-red-heart-love-heart-computer-icons-thumbnail.png"
-    ],
-    agua: [
-        "https://w7.pngwing.com/pngs/922/489/png-transparent-whatsapp-icon-logo-whatsapp-logo-text-trademark-grass-thumbnail.png",
-        "https://w7.pngwing.com/pngs/664/799/png-transparent-paper-creative-tearing-paper-background-black-border-template-angle-white-rectangle-thumbnail.png",
-        "https://w7.pngwing.com/pngs/814/840/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png"
-    ],
-    naturaleza: [
-        "https://w7.pngwing.com/pngs/282/704/png-transparent-facebook-messenger-logo-icon-facebook-facebook-logo-blue-text-trademark-thumbnail.png",
-        "https://w7.pngwing.com/pngs/972/320/png-transparent-speech-balloon-comics-illustration-cartoon-explosion-effects-border-black-and-yellow-speech-balloon-template-border-cartoon-character-white-thumbnail.png",
-        "https://w7.pngwing.com/pngs/752/373/png-transparent-computer-icons-facebook-logo-facebook-logo-fine-art-thumbnail.png"
-    ]
-};
+document.addEventListener('DOMContentLoaded', function() {
+    // Definir las URLs de las imágenes para cada categoría
+    const imageCategories = {
+        comidas: [
+            'https://www.pngwing.com/es/comidas1.png',
+            'https://www.pngwing.com/es/comidas2.png',
+            'https://www.pngwing.com/es/comidas3.png'
+        ],
+        agua: [
+            'https://www.pngwing.com/es/agua1.png',
+            'https://www.pngwing.com/es/agua2.png',
+            'https://www.pngwing.com/es/agua3.png'
+        ],
+        naturaleza: [
+            'https://www.pngwing.com/es/naturaleza1.png',
+            'https://www.pngwing.com/es/naturaleza2.png',
+            'https://www.pngwing.com/es/naturaleza3.png'
+        ]
+    };
 
-function loadImages() {
-    for (const category in imageLinks) {
-        const container = document.getElementById(category);
-        imageLinks[category].forEach(link => {
-            const img = document.createElement("img");
-            img.src = link;
+    // Cargar imágenes dinámicamente en el DOM
+    for (const [category, urls] of Object.entries(imageCategories)) {
+        const container = document.createElement('div');
+        container.classList.add('image-row');
+
+        urls.forEach(url => {
+            const img = document.createElement('img');
+            img.src = url;
+            img.alt = `Imagen de ${category}`;
+            img.classList.add('thumbnail');
             container.appendChild(img);
         });
-    }
-}
 
-document.getElementById("searchButton").addEventListener("click", () => {
-    const query = document.getElementById("searchBar").value.toLowerCase();
-    for (const category in imageLinks) {
-        const container = document.getElementById(category);
-        container.innerHTML = ""; // Clear current images
-        imageLinks[category].forEach(link => {
-            if (link.toLowerCase().includes(query)) {
-                const img = document.createElement("img");
-                img.src = link;
-                container.appendChild(img);
+        const categoryTitle = document.createElement('h2');
+        categoryTitle.textContent = `Categoría: ${category.charAt(0).toUpperCase() + category.slice(1)}`;
+
+        document.querySelector('.main-container').appendChild(categoryTitle);
+        document.querySelector('.main-container').appendChild(container);
+    }
+
+    // Funcionalidad de búsqueda
+    document.getElementById('searchBtn').addEventListener('click', function() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const images = document.querySelectorAll('.thumbnail');
+        const categories = document.querySelectorAll('h2');
+
+        let found = false;
+
+        images.forEach(image => {
+            const altText = image.alt.toLowerCase();
+            if (altText.includes(searchTerm)) {
+                image.style.display = 'inline-block';
+                found = true;
+            } else {
+                image.style.display = 'none';
             }
         });
-    }
-});
 
-window.onload = loadImages;
+        categories.forEach(category => {
+            const imagesInCategory = category.nextElementSibling.querySelectorAll('.thumbnail');
+            if (Array.from(imagesInCategory).some(img => img.style.display === 'inline-block')) {
+                category.style.display = 'block';
+            } else {
+                category.style.display = 'none';
+            }
+        });
+
+        if (!found) {
+            alert('No se encontraron resultados para tu búsqueda.');
+        }
+    });
+});
