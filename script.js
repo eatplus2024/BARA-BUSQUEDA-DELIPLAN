@@ -39,7 +39,110 @@ const images = [
 function applyDynamicStyles() {
     const styleElement = document.getElementById("dynamic-style");
     styleElement.textContent = `
-        body { ... } /* El contenido del estilo se mantiene igual */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #main-title {
+            color: #444;
+            font-size: 28px;
+            margin: 20px 0;
+        }
+
+        .search-container {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+        }
+
+        #search-wrapper {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        #searchInput {
+            flex: 1;
+            padding: 15px 20px;
+            font-size: 18px;
+            border: 2px solid #00ffcc;
+            border-radius: 25px;
+            outline: none;
+            background: #fff;
+            color: #333;
+            transition: box-shadow 0.3s ease;
+        }
+
+        #searchInput:focus {
+            box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+        }
+
+        #resetBtn {
+            position: absolute;
+            right: 10px;
+            background: none;
+            border: none;
+            color: #00ffcc;
+            font-size: 18px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        #resetBtn:hover {
+            color: #007f66;
+        }
+
+        .search-container button {
+            background-color: #00ffcc;
+            border: none;
+            border-radius: 25px;
+            padding: 12px 20px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .search-container button:hover {
+            background-color: #007f66;
+            transform: scale(1.05);
+        }
+
+        #gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px auto;
+            width: 90%;
+        }
+
+        #gallery img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+        }
+
+        footer {
+            background-color: #111;
+            color: #00ffcc;
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
     `;
 }
 
@@ -53,6 +156,7 @@ function displayImages(imageList) {
         return;
     }
 
+    // Evitar duplicados
     const uniqueImages = Array.from(new Set(imageList.map((img) => img.url)))
         .map((url) => imageList.find((img) => img.url === url));
 
@@ -78,17 +182,15 @@ function searchImages() {
         return;
     }
 
-    // Filtrar imágenes por coincidencia parcial en las palabras clave
+    // Filtrar imágenes por coincidencia estricta en palabras clave
     const filteredImages = images.filter((image) =>
-        image.keywords.some((keyword) =>
-            keyword.toLowerCase().includes(query)
-        )
+        image.keywords.some((keyword) => keyword.toLowerCase() === query)
     );
 
     displayImages(filteredImages);
 }
 
-// Restaurar galería a su estado inicial
+// Restaurar la galería a su estado inicial
 function resetGallery() {
     document.getElementById("searchInput").value = "";
     displayImages(images);
