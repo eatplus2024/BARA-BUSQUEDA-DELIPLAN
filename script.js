@@ -220,7 +220,7 @@ function displayImages(imageList) {
 
 // Función para buscar imágenes
 function searchImages() {
-    const query = document.getElementById("searchInput.placeholder").value.toLowerCase().trim();
+    const query = document.getElementById("searchInput").value.toLowerCase().trim();
     if (!query) {
         alert("Escribe aquí lo que buscas.");
         return;
@@ -232,6 +232,14 @@ function searchImages() {
 
     displayImages(filteredImages);
 }
+
+// Iniciar aplicación
+window.onload = () => {
+    applyDynamicStyles();
+    displayImages(images);
+    autoFocusSearchInput();
+    document.getElementById("searchInput").placeholder = "Escribe aquí lo que buscar"; // Ajustar el texto del placeholder
+};
 
 // Restaurar galería
 function resetGallery() {
