@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BUSCAR EN DELIPLAN</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Buscar en DeliPlan</title>
+    <style id="dynamic-style"></style> <!-- Estilo dinámico -->
 </head>
 <body>
-    <header class="header">
-        <h1>BUSCAR EN DELIPLAN</h1>
-        <p>Encuentra el establecimiento o producto/servicio que necesitas escribiendo su nombre o tipo:</p>
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Ejemplo: restaurante, hotel, peluquería...">
-            <button onclick="searchImages()">Buscar</button>
-            <button onclick="resetGallery()">Restaurar</button>
-        </div>
+    <header>
+        <h1 id="main-title">Buscar en DeliPlan</h1>
     </header>
-    <main>
-        <section id="gallery" class="gallery"></section>
-    </main>
-    <footer class="footer">
-        <p>&copy; 2024 DeliPlan Yopal</p>
+    <section class="search-container">
+        <div id="search-wrapper">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Escribe el establecimiento o producto que necesitas">
+            <button id="resetBtn" onclick="resetGallery()">X</button>
+        </div>
+        <button onclick="searchImages()">Buscar</button>
+    </section>
+    <div id="gallery"></div>
+    <footer>
+        DeliPlan Yopal
     </footer>
     <script src="script.js"></script>
 </body>
