@@ -33,6 +33,54 @@ const images = [
         keywords: ["turisticos", "cafe", "restaurante"],
         link: "https://unsplash.com/",
     },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png",
+        keywords: ["turisticos", "cafe", "restaurante"],
+        link: "https://unsplash.com/"
+    },
+    {
+        id: 1,
+        url: "https://static.wixstatic.com/media/a4f6c8_f9c96ee36ee747a2a8e8da2d1ec9b0a1~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_f9c96ee36ee747a2a8e8da2d1ec9b0a1~mv2.png",
+        keywords: ["taxi", "Taxis", "taxis"],
+        link: "https://eatcomercial01.wixsite.com/website-1/turitaxis"
+    },
+    {
+        id: 2,
+        url: "https://static.wixstatic.com/media/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png",
+        keywords: ["muebles", "cama", "colchon"],
+        link: "https://unsplash.com/"
+    },
+    {
+        id: 3,
+        url: "https://static.wixstatic.com/media/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png",
+        keywords: ["domiciliario", "domicilio", "comida"],
+        link: "https://unsplash.com/"
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png",
+        keywords: ["turisticos", "cafe", "restaurante"],
+        link: "https://unsplash.com/"
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png",
+        keywords: ["turisticos", "cafe", "restaurante"],
+        link: "https://unsplash.com/"
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png",
+        keywords: ["turisticos", "cafe", "restaurante"],
+        link: "https://unsplash.com/"
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png",
+        keywords: ["turisticos", "cafe", "restaurante"],
+        link: "https://unsplash.com/"
+    }
 ];
 
 // Aplicar estilos dinámicos
