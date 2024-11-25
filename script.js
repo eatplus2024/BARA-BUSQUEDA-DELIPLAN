@@ -115,7 +115,8 @@ function applyDynamicStyles() {
         }
 
         #gallery img {
-            max-width: 90px; /* Tamaño miniatura */
+            max-width: 150px; /* Tamaño ajustado */
+            height: auto; /* Mantener proporción */
             border-radius: 10px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
