@@ -3,27 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscar en DeliPlan</title>
-    <style id="dynamic-style"></style> <!-- Estilo dinámico -->
+    <title>Galería de Imágenes</title>
+    <style id="dynamic-style"></style>
 </head>
 <body>
-    <header>
-        <h1 id="main-title">Buscar en DeliPlan</h1>
-    </header>
-    <section class="search-container">
+    <h1 id="main-title">Buscador de Imágenes</h1>
+    <div class="search-container">
         <div id="search-wrapper">
-            <input 
-                type="text" 
-                id="searchInput" 
-                placeholder="Escribe el establecimiento o producto que necesitas">
-            <button id="resetBtn" onclick="resetGallery()">X</button>
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Escribe aquí lo que buscas..."
+                autocomplete="off"
+            />
+            <button id="resetBtn" onclick="resetGallery()">❌</button>
         </div>
         <button onclick="searchImages()">Buscar</button>
-    </section>
+    </div>
     <div id="gallery"></div>
     <footer>
-        DeliPlan Yopal
+        &copy; 2024 - Buscador Interactivo
     </footer>
-    <script src="script.js"></script>
+
+    <script>
+        // Código completo en JS
+        const images = [
+            { id: 1, url: "https://example.com/taxi.png", keywords: ["taxi", "taxis"], link: "https://example.com/taxi" },
+            { id: 2, url: "https://example.com/muebles.png", keywords: ["muebles", "cama", "colchon"], link: "https://example.com/muebles" },
+            { id: 3, url: "https://example.com/domicilio.png", keywords: ["domiciliario", "domicilio", "comida"], link: "https://example.com/domicilio" },
+        ];
+
+        function autoFocusSearchInput() {
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            const searchInput = document.getElementById("searchInput");
+
+            if (isMobile && searchInput) {
+                searchInput.focus();
+            }
+        }
+
+        function applyDynamicStyles() {
+            const styleElement = document.getElementById("dynamic-style");
+            styleElement.textContent = `
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f9;
+                    color: #333;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                }
+                #search-wrapper {
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                }
+                #searchInput {
+                    flex: 1;
+                    padding: 15px 20px;
+                    border: 2px solid #00ffcc;
+                    border-radius: 25px;
+                }
+                #resetBtn {
+                    position: absolute;
+                    right: 10px;
+                }
+                #gallery img:hover {
+                    transform: scale(1.1);
+                }
+            `;
+        }
+
+        function searchImages() {
+            const query = document.getElementById("searchInput").value.toLowerCase().trim();
+            if (!query) {
+                alert("Escribe aquí lo que buscas.");
+                return;
+            }
+
+            const filteredImages = images.filter(image =>
+                image.keywords.some(keyword => keyword.toLowerCase() === query)
+            );
+
+            displayImages(filteredImages);
+        }
+
+        function resetGallery() {
+            document.getElementById("searchInput").value = "";
+            displayImages(images);
+        }
+
+        function displayImages(imageList) {
+            const gallery = document.getElementById("gallery");
+            gallery.innerHTML = "";
+
+            if (imageList.length === 0) {
+                gallery.innerHTML = "<p>No hay resultados relacionados.</p>";
+                return;
+            }
+
+            const uniqueImages = Array.from(new Set(imageList.map(img => img.url)))
+                .map(url => imageList.find(img => img.url === url));
+
+            uniqueImages.forEach(image => {
+                const anchor = document.createElement("a");
+                anchor.href = image.link;
+                anchor.target = "_blank";
+
+                const img = document.createElement("img");
+                img.src = image.url;
+                img.alt = image.keywords.join(", ");
+
+                anchor.appendChild(img);
+                gallery.appendChild(anchor);
+            });
+        }
+
+        window.onload = () => {
+            applyDynamicStyles();
+            displayImages(images);
+            autoFocusSearchInput();
+        };
+    </script>
 </body>
 </html>
