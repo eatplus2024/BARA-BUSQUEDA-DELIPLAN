@@ -1,25 +1,35 @@
+// Detectar dispositivo móvil y enfocar automáticamente el campo de búsqueda
+function autoFocusSearchInput() {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent); // Detectar si es un dispositivo móvil
+    const searchInput = document.getElementById("searchInput");
+
+    if (isMobile && searchInput) {
+        searchInput.focus();
+    }
+}
+
 const images = [
     {
         id: 1,
-        url: "https://static.wixstatic.com/media/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png",
-        keywords: ["Taxi", "taxi"],
-        link: "https://eatcomercial01.wixsite.com/website-1/turitaxis"
+        url: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809",
+        keywords: ["restaurante", "comida", "agua"],
+        link: "https://unsplash.com/"
     },
     {
         id: 2,
-        url: "https://static.wixstatic.com/media/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png",
+        url: "https://images.unsplash.com/photo-1557682263-7056e2d2235d",
         keywords: ["hotel", "naturaleza", "bosque"],
         link: "https://unsplash.com/"
     },
     {
         id: 3,
-        url: "https://static.wixstatic.com/media/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png",
+        url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
         keywords: ["playa", "mar", "vacaciones"],
         link: "https://unsplash.com/"
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_b0436644db134e9a834fe70da8a1b82c~mv2.png",
+        url: "https://images.unsplash.com/photo-1545286987-4a3bfb09dfc2",
         keywords: ["peluquería", "ciudad", "urbano"],
         link: "https://unsplash.com/"
     }
@@ -115,7 +125,7 @@ function applyDynamicStyles() {
         }
 
         #gallery img {
-            max-width: 180px; /* Tamaño ajustado */
+            max-width: 150px; /* Tamaño ajustado */
             height: auto; /* Mantener proporción */
             border-radius: 10px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -185,4 +195,5 @@ function resetGallery() {
 window.onload = () => {
     applyDynamicStyles();
     displayImages(images);
+    autoFocusSearchInput(); // Llamar a la función de autoenfoque
 };
