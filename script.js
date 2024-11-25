@@ -11,7 +11,7 @@ function autoFocusSearchInput() {
 const images = [
     {
         id: 1,
-        url: "https://static.wixstatic.com/media/a4f6c8_e0930b4f2667461d8da74e7a6e12bf57~mv2.png/v1/fill/w_600,h_307,al_c,q_85,enc_avif,quality_auto/a4f6c8_e0930b4f2667461d8da74e7a6e12bf57~mv2.png",
+        url: "https://static.wixstatic.com/media/a4f6c8_f9c96ee36ee747a2a8e8da2d1ec9b0a1~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_f9c96ee36ee747a2a8e8da2d1ec9b0a1~mv2.png",
         keywords: ["taxi", "cocina", "estufas industriales"],
         link: "https://eatcomercial01.wixsite.com/website-1/informaci%C3%B3n-deliplan-2024"
     },
@@ -152,7 +152,7 @@ function displayImages(imageList) {
     gallery.innerHTML = "";
 
     if (imageList.length === 0) {
-        gallery.innerHTML = "<p>No se encontraron imágenes relacionadas.</p>";
+        gallery.innerHTML = "<p>No hay resultados relacionados.</p>";
         return;
     }
 
