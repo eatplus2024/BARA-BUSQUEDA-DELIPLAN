@@ -172,9 +172,9 @@ function displayImages(imageList) {
 
 // Función para buscar imágenes
 function searchImages() {
-    const query = document.getElementById("searchInput").value.toLowerCase().trim();
+    const query = document.getElementById("searchInput.placeholder").value.toLowerCase().trim();
     if (!query) {
-        alert("Por favor, introduce una palabra clave.");
+        alert("Escribe aquí lo que buscas.");
         return;
     }
 
