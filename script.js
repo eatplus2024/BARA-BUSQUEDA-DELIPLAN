@@ -204,7 +204,11 @@ function displayImages(imageList) {
         return;
     }
 
-    imageList.forEach(image => {
+    // Evitar imágenes duplicadas
+    const uniqueImages = Array.from(new Set(imageList.map(img => img.url)))
+        .map(url => imageList.find(img => img.url === url));
+
+    uniqueImages.forEach(image => {
         const anchor = document.createElement("a");
         anchor.href = image.link;
         anchor.target = "_blank";
@@ -226,8 +230,9 @@ function searchImages() {
         return;
     }
 
+    // Filtrar imágenes por coincidencia exacta en las palabras clave
     const filteredImages = images.filter(image =>
-        image.keywords.some(keyword => keyword.includes(query))
+        image.keywords.some(keyword => keyword.toLowerCase() === query)
     );
 
     displayImages(filteredImages);
