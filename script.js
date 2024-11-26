@@ -18,7 +18,7 @@ const images = [
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_04ad6e3130d04f4dada287584d18cf01~mv2.png",
-            keywords: ["muebles", "cama", "basecama", "colchón", "colchon", "colchoneta", "cabecera", "closet", "sofa", "nochero", "semanario", "peinador", "sala", "comedor", "tendido", "forro", "edredón", "edredon", "sábana", "sabana", "almohada", "toldillos", "artesanías", "artesanias", "cuadro"],
+            keywords: ["muebles", "cama", "basecama", "colchón"],
         link: "https://unsplash.com/",
     },
     {
