@@ -29,8 +29,8 @@ const images = [
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png",
-        keywords: ["turisticos", "cafe", "restaurante"],
+        url: "https://static.wixstatic.com/media/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png",
+        keywords: ["turisticos", "cafe", "restaurante", "doña barbara", "carne", "carta", "turismo", "comida", "almuerzo", "cena", "bar", "domicilio", "garcero"],
         link: "https://unsplash.com/",
     },
 ];
