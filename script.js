@@ -39,8 +39,14 @@ const images = [
 function normalizeString(str) {
     return str
         .toLowerCase()
-        .normalize("NFD") // Descomponer caracteres acentuados
-        .replace(/[\u0300-\u036f]/g, ""); // Eliminar diacríticos
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+}
+
+// Mostrar u ocultar el indicador de carga
+function toggleLoadingIndicator(show) {
+    const loadingOverlay = document.getElementById("loading-overlay");
+    loadingOverlay.style.display = show ? "flex" : "none";
 }
 
 // Mostrar imágenes en la galería (coincidencias exactas y parciales)
@@ -73,7 +79,7 @@ function displayImages(filteredImages, partialMatches = []) {
     }
 
     if (partialMatches.length > 0) {
-        const separator = document.createElement("hr"); // Línea separadora
+        const separator = document.createElement("hr");
         gallery.appendChild(separator);
 
         const partialTitle = document.createElement("h3");
@@ -92,7 +98,6 @@ function displayImages(filteredImages, partialMatches = []) {
             anchor.appendChild(img);
             gallery.appendChild(anchor);
 
-            // Mostrar palabras coincidentes debajo de cada imagen
             const matchesText = document.createElement("p");
             matchesText.textContent = `Palabras relacionadas: ${matches.join(", ")}`;
             matchesText.style.fontSize = "12px";
@@ -110,30 +115,32 @@ function searchImages() {
         return;
     }
 
-    const filteredImages = [];
-    const partialMatches = [];
+    toggleLoadingIndicator(true); // Mostrar indicador de carga
 
-    images.forEach((image) => {
-        const normalizedKeywords = image.keywords.map(normalizeString);
+    setTimeout(() => {
+        const filteredImages = [];
+        const partialMatches = [];
 
-        // Coincidencias exactas o parciales
-        if (normalizedKeywords.some((keyword) => keyword.includes(query))) {
-            filteredImages.push(image);
-        } else {
-            // Coincidencias parciales con palabras individuales
-            const words = query.split(" ");
-            const matches = words.filter((word) =>
-                normalizedKeywords.some((keyword) => keyword.includes(word))
-            );
+        images.forEach((image) => {
+            const normalizedKeywords = image.keywords.map(normalizeString);
 
-            if (matches.length > 0) {
-                partialMatches.push({ image, matches });
+            if (normalizedKeywords.some((keyword) => keyword.includes(query))) {
+                filteredImages.push(image);
+            } else {
+                const words = query.split(" ");
+                const matches = words.filter((word) =>
+                    normalizedKeywords.some((keyword) => keyword.includes(word))
+                );
+
+                if (matches.length > 0) {
+                    partialMatches.push({ image, matches });
+                }
             }
-        }
-    });
+        });
 
-    // Mostrar imágenes
-    displayImages(filteredImages, partialMatches);
+        displayImages(filteredImages, partialMatches);
+        toggleLoadingIndicator(false); // Ocultar indicador de carga
+    }, 1000); // Simular retraso de búsqueda
 }
 
 // Restaurar la galería a su estado inicial (sin imágenes)
@@ -250,6 +257,40 @@ function applyDynamicStyles() {
             padding: 10px;
             font-size: 14px;
             text-align: center;
+        }
+
+        #loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #00ffcc;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            flex-direction: column;
+        }
+
+        .spinner {
+            border: 8px solid rgba(0, 255, 204, 0.3);
+            border-top: 8px solid #00ffcc;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            animation: spin 1.2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            margin-top: 15px;
+            font-size: 18px;
         }
     `;
 }
