@@ -30,8 +30,38 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png",
-        keywords: ["turisticos", "cafe", "restaurante", "doña barbara", "carne", "carta", "turismo", "comida", "almuerzo", "cena", "bar", "domicilio", "garcero"],
+        keywords: ["el garcero", "turisticos", "cafe", "restaurante", "doña barbara", "carne", "carta", "turismo", "comida", "almuerzo", "cena", "bar", "domicilio", "garcero"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-soy-picapiedra-1",
+    },
+    {
+        id: 1,
+        url: "https://static.wixstatic.com/media/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png",
+        keywords: ["palogrande", "taxi", "Taxis", "taxis", "turismo", "piscina", "hotel", "eventos", "sitios turisticos"],
+        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-yopo-cheladas",
+    },
+    {
+        id: 2,
+        url: "https://static.wixstatic.com/media/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png",
+        keywords: ["la esquina del sabor", "comidas rapidas", "carne al barril", "salchipapa", "picadas", "a domicilio", "restaurante", "hamburguesas", "perros"],
+        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-barista-coffee-bread-2",
+    },
+    {
+        id: 3,
+        url: "https://static.wixstatic.com/media/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png",
+        keywords: ["le prova burger", "comidas rapidas", "salchipapa", "picadas", "a domicilio", "hamburguesas", "perros"],
+        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-plantilla-locales",
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png",
+        keywords: ["mirador de la virgen", "frutos rojos del casanare", "mango", "frutas", "salpicon", "piña", "helados", "a domicilio", "turismo", "sitios turisticos", "mirador"],
+        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-palogrande-1",
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png",
+        keywords: ["deluxe terraza", "deluz", "delus", "comidas rapidas", "helados", "salchipapa", "picadas", "a domicilio", "restaurante", "hamburguesas", "perros"],
+        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-aldin%C3%AD-1",
     },
 ];
 
