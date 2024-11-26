@@ -18,7 +18,7 @@ const images = [
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_04ad6e3130d04f4dada287584d18cf01~mv2.png",
-        keywords: ["muebles", "cama", "colchon"],
+            keywords: ["muebles", "cama", "basecama", "colchón", "colchon", "colchoneta", "cabecera", "closet", "sofa", "nochero", "semanario", "peinador", "sala", "comedor", "tendido", "forro", "edredón", "edredon", "sábana", "sabana", "almohada", "toldillos", "artesanías", "artesanias", "cuadro"],
         link: "https://unsplash.com/",
     },
     {
@@ -178,18 +178,118 @@ function searchImages() {
         return;
     }
 
-    // Filtrar imágenes por coincidencia estricta en palabras clave
-    const filteredImages = images.filter((image) =>
-        image.keywords.some((keyword) => keyword.toLowerCase() === query)
-    );
+    // Función para normalizar cadenas (elimina tildes y diferencias en mayúsculas/minúsculas)
+function normalizeString(str) {
+    return str
+        .toLowerCase()
+        .normalize("NFD") // Descomponer caracteres acentuados
+        .replace(/[\u0300-\u036f]/g, ""); // Eliminar los caracteres diacríticos
+}
 
+// Función para buscar coincidencias aproximadas
+function searchImages() {
+    const query = normalizeString(document.getElementById("searchInput").value.trim());
+    if (!query) {
+        alert("Escribe aquí lo que buscas.");
+        return;
+    }
+
+    const filteredImages = [];
+    const partialMatches = [];
+
+    // Buscar coincidencias exactas y parciales
+    images.forEach((image) => {
+        const normalizedKeywords = image.keywords.map((keyword) => normalizeString(keyword));
+
+        // Coincidencias exactas o parciales
+        const matches = normalizedKeywords.filter((keyword) =>
+            keyword.includes(query) || query.includes(keyword)
+        );
+
+        if (matches.length > 0) {
+            filteredImages.push({ image, matches });
+        } else {
+            // Coincidencias parciales de palabras individuales
+            const phraseWords = query.split(" "); // Dividir la frase en palabras
+            const partialWordMatches = phraseWords.filter((word) =>
+                normalizedKeywords.some((keyword) => keyword.includes(word))
+            );
+
+            if (partialWordMatches.length > 0) {
+                partialMatches.push({ image, partialWordMatches });
+            }
+        }
+    });
+
+    // Mostrar resultados
+    displayImages(filteredImages, partialMatches);
+}
+
+// Función para mostrar imágenes y coincidencias parciales
+function displayImages(filteredImages, partialMatches) {
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = "";
+
+    if (filteredImages.length === 0 && partialMatches.length === 0) {
+        gallery.innerHTML = "<p>No hay resultados relacionados.</p>";
+        return;
+    }
+
+    if (filteredImages.length > 0) {
+        const exactTitle = document.createElement("h3");
+        exactTitle.textContent = "Resultados principales:";
+        gallery.appendChild(exactTitle);
+
+        filteredImages.forEach(({ image }) => {
+            const anchor = document.createElement("a");
+            anchor.href = image.link;
+            anchor.target = "_blank";
+
+            const img = document.createElement("img");
+            img.src = image.url;
+            img.alt = image.keywords.join(", ");
+
+            anchor.appendChild(img);
+            gallery.appendChild(anchor);
+        });
+    }
+
+    if (partialMatches.length > 0) {
+        const separator = document.createElement("hr"); // Línea separadora
+        gallery.appendChild(separator);
+
+        const partialTitle = document.createElement("h3");
+        partialTitle.textContent = "Coincidencias en palabras relacionadas:";
+        gallery.appendChild(partialTitle);
+
+        partialMatches.forEach(({ image, partialWordMatches }) => {
+            const anchor = document.createElement("a");
+            anchor.href = image.link;
+            anchor.target = "_blank";
+
+            const img = document.createElement("img");
+            img.src = image.url;
+            img.alt = image.keywords.join(", ");
+
+            anchor.appendChild(img);
+            gallery.appendChild(anchor);
+
+            // Mostrar palabras coincidentes debajo de cada imagen
+            const matchesText = document.createElement("p");
+            matchesText.textContent = `Palabras relacionadas: ${partialWordMatches.join(", ")}`;
+            matchesText.style.fontSize = "12px";
+            matchesText.style.color = "#555";
+            gallery.appendChild(matchesText);
+        });
+    }
+}
     displayImages(filteredImages);
 }
 
 // Restaurar la galería a su estado inicial (sin imágenes)
 function resetGallery() {
     document.getElementById("searchInput").value = "";
-    document.getElementById("gallery").innerHTML = "<p>Usa la barra de búsqueda para ver imágenes.</p>";
+    document.getElementById("gallery").innerHTML = "<p>Usa la barra de búsqueda para encontrar el producto, servicico o establecimiento que necesites.</p>";
 }
 
 // Inicializar la aplicación
