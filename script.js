@@ -36,7 +36,7 @@ const images = [
     {
         id: 1,
         url: "https://static.wixstatic.com/media/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png",
-        keywords: ["palogrande", "taxi", "Taxis", "taxis", "turismo", "piscina", "hotel", "eventos", "sitios turisticos"],
+        keywords: ["palogrande", "turismo", "piscina", "hotel", "eventos", "sitios turisticos"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-yopo-cheladas",
     },
     {
