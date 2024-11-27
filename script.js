@@ -443,6 +443,11 @@ const images = [
     },
 ];
 
+// Lista de palabras comunes que no se deben considerar
+const stopWords = [
+    "a", "de", "para", "el", "la", "los", "las", "y", "o", "en", "con", "un", "una", "del", "al", "por"
+];
+
 // Normalizar cadenas para ignorar mayúsculas, tildes y diacríticos
 function normalizeString(str) {
     return str
@@ -523,6 +528,15 @@ function searchImages() {
         return;
     }
 
+    const queryWords = query
+        .split(" ")
+        .filter((word) => word && !stopWords.includes(word)); // Excluir palabras comunes
+
+    if (queryWords.length === 0) {
+        alert("Por favor, usa palabras clave más específicas.");
+        return;
+    }
+
     toggleLoadingIndicator(true); // Mostrar indicador de carga
 
     setTimeout(() => {
@@ -532,11 +546,10 @@ function searchImages() {
         images.forEach((image) => {
             const normalizedKeywords = image.keywords.map(normalizeString);
 
-            if (normalizedKeywords.some((keyword) => keyword.includes(query))) {
+            if (queryWords.some((word) => normalizedKeywords.includes(word))) {
                 filteredImages.push(image);
             } else {
-                const words = query.split(" ");
-                const matches = words.filter((word) =>
+                const matches = queryWords.filter((word) =>
                     normalizedKeywords.some((keyword) => keyword.includes(word))
                 );
 
