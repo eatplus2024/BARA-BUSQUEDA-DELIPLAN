@@ -18,91 +18,91 @@ const images = [
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_04ad6e3130d04f4dada287584d18cf01~mv2.png",
-        keywords: ["muebles js", "distribuidora", "fabrica", "alfombras", "muebles", "cama", "colchon", "espaldar", "sabana", "tendido", "artesanias", "toldillo", "cuadro", "sofa", "peinador", "nochero", "semanario", "closet", "sala", "comedor"],
+        keywords: ["muebles js", "distribuidoras", "fabrica", "alfombras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-8/locales",
     },
     {
         id: 3,
         url: "https://static.wixstatic.com/media/a4f6c8_012863f5fa3b4634b17feaae5e57a545~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_012863f5fa3b4634b17feaae5e57a545~mv2.png",
-        keywords: ["domiciliario", "domicilio", "comida", "oscar torres"],
+        keywords: ["domiciliarios", "domicilios", "comidas", "oscar torres"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-6-of-locales-2-1-2/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png",
-        keywords: ["el garcero", "turisticos", "cafe", "restaurante", "doña barbara", "carne", "carta", "turismo", "comida", "almuerzo", "cena", "bar", "domicilio", "garcero"],
+        keywords: ["el garcero", "turisticos", "cafeteria", "restaurantes", "doña barbara", "carne", "carta", "turismo", "comidas", "almuerzos", "cenas", "bares", "domicilios", "garcero"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-soy-picapiedra-1",
     },
     {
         id: 1,
         url: "https://static.wixstatic.com/media/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_dc625c62d77f4dc3a53ea6424e7fb309~mv2.png",
-        keywords: ["palogrande", "turismo", "piscina", "hotel", "eventos", "sitios turisticos"],
+        keywords: ["palogrande", "turismo", "piscinas", "hoteles", "eventos", "celebraciones", "sitios turisticos"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-yopo-cheladas",
     },
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png",
-        keywords: ["la esquina del sabor", "comidas rapidas", "carne al barril", "salchipapa", "picadas", "a domicilio", "restaurante", "hamburguesas", "perros"],
+        keywords: ["la esquina del sabor", "comidas rapidas", "carne al barril", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-barista-coffee-bread-2",
     },
     {
         id: 3,
         url: "https://static.wixstatic.com/media/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png",
-        keywords: ["le prova burger", "comidas rapidas", "salchipapa", "picadas", "a domicilio", "hamburguesas", "perros"],
+        keywords: ["le prova burger", "comidas rapidas", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-plantilla-locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_5cb37d55cade473a835b3d4660532060~mv2.png",
-        keywords: ["mirador de la virgen", "frutos rojos del casanare", "mango", "frutas", "salpicon", "piña", "helados", "a domicilio", "turismo", "sitios turisticos", "mirador"],
+        keywords: ["mirador de la virgen", "frutos rojos del casanare", "mango", "frutas", "salpicon", "piña", "helados", "a domicilios", "turismo", "sitios turisticos", "miradores"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-palogrande-1",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png",
-        keywords: ["deluxe terraza", "deluz", "delus", "comidas rapidas", "helados", "salchipapa", "picadas", "a domicilio", "restaurante", "hamburguesas", "perros"],
+        keywords: ["deluxe terraza", "deluz", "delus", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-aldin%C3%AD-1",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png",
-        keywords: ["ayl extintores y dotaciones", "recarga", "uniformes", "botas", "cascos", "construcción", "seguridad", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia"],
+        keywords: ["ayl extintores y dotaciones", "recargas", "uniformes", "botas", "cascos", "construcción", "seguridad", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-5/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_cd3d69d08aba49eea9767bf866abed2c~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_cd3d69d08aba49eea9767bf866abed2c~mv2.png",
-        keywords: ["Hamburguesas del llano", "comidas rapidas", "helados", "salchipapa", "picadas", "a domicilio", "hamburguesas", "perros"],
+        keywords: ["Hamburguesas del llano", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-do%C3%B1a-barbara",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_a7cc18ce18314b4bbb1fc447d4350a20~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_a7cc18ce18314b4bbb1fc447d4350a20~mv2.png",
-        keywords: ["acarreos en motocarro", "carromoto", "trasteos"],
+        keywords: ["acarreos en motocarro", "carromotos", "trasteos"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-2-2/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_ecffb5f9b02e40778f80183c23f50292~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_ecffb5f9b02e40778f80183c23f50292~mv2.png",
-        keywords: ["agua 0.00", "cero", "botellon", "agua potable", "tratada"],
+        keywords: ["agua 0.00", "cero", "botellones", "agua potable", "tratada", "pura"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-9/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_cd33a3b65aaa47dc9ec0a36dc54405af~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_cd33a3b65aaa47dc9ec0a36dc54405af~mv2.png",
-        keywords: ["autolujos el mono", "lujos", "accesorios para carro", "luces", "repuestos"],
+        keywords: ["autolujos el mono", "lujos", "accesorios para carros", "luces", "repuestos", "tecnologia"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-9-2/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_9b95581373a24747878179fd0e393b11~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_9b95581373a24747878179fd0e393b11~mv2.png",
-        keywords: ["buñuelo express", "empanadas", "pandebono", "caldo", "comidas rapidas", "jugos naturales", "cohinitos", "a domicilio"],
+        keywords: ["buñuelo express", "empanadas", "pandebonos", "caldos", "comidas rapidas", "jugos naturales", "cohinitos", "a domicilios"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-le-prova-burguer-1",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_2ae60fb9b03d41bfbbe296b993c885aa~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_2ae60fb9b03d41bfbbe296b993c885aa~mv2.png",
-        keywords: ["brisa del llano", "comidas rapidas", "carne asada", "salchipapa", "picadas", "a la llanera", "restaurante", "hamburguesas", "perros", "a domicilio", "turismo", "tinto", "cafe", "jugos", "micheladas", "churrazco", "mayas catamaran", "mallas", "mirador", "sitios turisticos"],
+        keywords: ["brisa del llano", "comidas rapidas", "carne asada", "salchipapas", "picadas", "a la llanera", "restaurantes", "hamburguesas", "perros", "a domicilios", "turismo", "tinto", "cafeteria", "jugos", "granizados", "micheladas", "churrazco", "mayas catamaran", "mallas", "mirador", "sitios turisticos"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-riki-pollo",
     },
     {
@@ -150,7 +150,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_af96e3a54c2140f0a1104de0c8c6b093~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_af96e3a54c2140f0a1104de0c8c6b093~mv2.png",
-        keywords: ["donde pacho", "camisetas", "sudaderas", "pantalonetas", "balones", "peluches", "accesorios", "deporte"],
+        keywords: ["donde pacho", "ropa deportiva", "prendas", "camisetas", "sudaderas", "pantalonetas", "balones", "peluches", "accesorios", "deporte"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-6/locales",
     },
     {
@@ -318,7 +318,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_f293433e12ae48b3a1972c50d154d934~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_f293433e12ae48b3a1972c50d154d934~mv2.png",
-        keywords: ["paso fino", "cuchillos", "sombrereria", "sombreros", "cotizas", "correas", "gorras", "botas", "ponchos", "llaneridades", "artesanias", "turismo", "bastimento llanero", "amacas", "billeteras", "estuches", "cuero", "llaveros", "decorativos", "ruanas", "chapas", "bolsos", "accesorios", "chimu"],
+        keywords: ["paso fino", "calzado", "cuchillos", "sombrereria", "sombreros", "cotizas", "correas", "gorras", "botas", "ponchos", "llaneridades", "artesanias", "turismo", "bastimento llanero", "amacas", "billeteras", "estuches", "cuero", "llaveros", "decorativos", "ruanas", "chapas", "bolsos", "accesorios", "chimu"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-5-of-locales-2-2-1/locales",
     },
     {
@@ -336,7 +336,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_14f089c43c574e2181ba7a65718c403a~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_14f089c43c574e2181ba7a65718c403a~mv2.png",
-        keywords: ["principe hats", "cuchillos", "sombrereria", "sombreros", "cotizas", "correas", "gorras", "botas", "ponchos", "llaneridades", "turismo", "estuches", "cuero", "llaveros", "ruanas", "chapas", "accesorios", "chimu"],
+        keywords: ["principe hats", "calzado", "cuchillos", "sombrereria", "sombreros", "cotizas", "correas", "gorras", "botas", "ponchos", "llaneridades", "turismo", "estuches", "cuero", "llaveros", "ruanas", "chapas", "accesorios", "chimu"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-14/locales",
     },
     {
@@ -440,6 +440,12 @@ const images = [
         url: "https://static.wixstatic.com/media/a4f6c8_08d0670ff993448b8bada947e02646c6~mv2.png/v1/fill/w_500,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_08d0670ff993448b8bada947e02646c6~mv2.png",
         keywords: ["audiovisuales", "edicion de video", "diseño grafico", "produccion multimedia", "tarjetas de presentacion", "volantes de publicidad", "avisos", "estampados", "sublimacion", "administracion de redes", "grabacion de videos", "fotografia", "produccion de video", "edicion de imagenes"],
         link: "https://eatcomercial01.wixsite.com/multiservicios-faro/copia-de-la-escuadra",
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_1af61e10fef1451d9e9350ef98e9dab5~mv2.png/v1/fill/w_500,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_1af61e10fef1451d9e9350ef98e9dab5~mv2.png",
+        keywords: ["La tienda del pie", "calzado", "zapatos", "colegiales", "para el colegio", "femeninos", "femeninas", "para mujeres", "masculinos", "chanclas", "sandalias", "tacones", "para niños", "para niñas"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-3/locales",
     },
 ];
 
