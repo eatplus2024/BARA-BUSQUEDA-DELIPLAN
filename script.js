@@ -574,7 +574,7 @@ function searchImages() {
 function resetGallery() {
     document.getElementById("searchInput").value = "";
     document.getElementById("gallery").innerHTML =
-        "<p>Usa la barra de búsqueda para ver imágenes.</p>";
+        "<p>Usa la barra de búsqueda para encontrar cualquier establecimiento, producto o servicio que necesites.</p>";
 }
 
 // Aplicar estilos dinámicos
