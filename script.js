@@ -156,7 +156,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_84ee5aa5ce3c4789917058d7e9b991f0~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_84ee5aa5ce3c4789917058d7e9b991f0~mv2.png",
-        keywords: ["Dsysk celulares", "accesorios para celular", "fundas", "estuches", "antichoques", "cargador", "audifonos", "diadema", "speaker", "altavoz", "altavoces", "mouse", "teclado", "vidrios para telefono", "control", "gamepad", "mando", "gamer", "servicio tecnico"],
+        keywords: ["Dsysk celulares", "accesorios para celular", "fundas", "estuches", "antichoques", "cargador", "audifonos", "diadema", "speaker", "altavoz", "altavoces", "mouse", "teclado", "vidrios para telefono", "control", "movil", "gamepad", "mando", "gamer", "servicio tecnico"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-14/locales",
     },
     {
