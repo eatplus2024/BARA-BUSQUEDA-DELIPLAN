@@ -30,7 +30,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png",
-        keywords: ["el garcero", "turisticos", "cafeteria", "restaurantes", "doña barbara", "carne", "carta", "turismo", "comidas", "almuerzos", "cenas", "bares", "domicilios", "garcero"],
+        keywords: ["el garcero", "turisticos", "cafeterias", "restaurantes", "doña barbara", "carne", "carta", "turismo", "comidas", "almuerzos", "cenas", "bares", "domicilios", "el garcero"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-soy-picapiedra-1",
     },
     {
@@ -84,13 +84,13 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_ecffb5f9b02e40778f80183c23f50292~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_ecffb5f9b02e40778f80183c23f50292~mv2.png",
-        keywords: ["agua 0.00", "cero", "botellones", "agua potable", "tratada", "pura"],
+        keywords: ["agua 0.00", "cero", "botellones", "agua potable", "tratada", "pura", "agua potable en botellon"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-9/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_cd33a3b65aaa47dc9ec0a36dc54405af~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_cd33a3b65aaa47dc9ec0a36dc54405af~mv2.png",
-        keywords: ["autolujos el mono", "lujos", "accesorios para carros", "luces", "repuestos", "tecnologia"],
+        keywords: ["autolujos el mono", "lujos", "accesorios para carros", "luces", "repuestos", "tecnologia", "lujos para carros", "luces para carros", "partes"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-9-2/locales",
     },
     {
@@ -150,7 +150,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_af96e3a54c2140f0a1104de0c8c6b093~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_af96e3a54c2140f0a1104de0c8c6b093~mv2.png",
-        keywords: ["donde pacho", "ropa deportiva", "prendas", "camisetas", "sudaderas", "pantalonetas", "balones", "peluches", "accesorios", "deporte"],
+        keywords: ["donde pacho", "ropa deportiva", "prendas", "camisetas deportivas", "sudaderas", "pantalonetas", "balones", "peluches", "accesorios", "deporte"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-6/locales",
     },
     {
@@ -180,7 +180,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_debce199ddcf496980f9db70f9f05b3c~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_debce199ddcf496980f9db70f9f05b3c~mv2.png",
-        keywords: ["floristeria enamorate", "flores", "detalles", "regalos", "peluches", "flores", "matrimonio", "eventos", "arreglos", "decoracion", "fiestas", "15 años", "ramos", "para cepelio"],
+        keywords: ["floristeria enamorate", "para velorio", "flores", "detalles", "regalos", "peluches", "flores", "matrimonio", "eventos", "arreglos", "decoracion", "fiestas", "15 años", "ramos", "para cepelio"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-8-of-locales-2-1-2/locales",
     },
     {
@@ -204,19 +204,19 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_055e14a66020426e99a320a9474dc334~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_055e14a66020426e99a320a9474dc334~mv2.png",
-        keywords: ["ferreruedas", "ferreteria", "rodachinas", "tornillos", "discos", "silicona", "pulidora"],
+        keywords: ["ferreruedas", "ferreteria", "rodachinas", "electrodos", "tornillos", "discos para pulidora", "pulir", "discos de corte", "silicona", "pulidora", "ruedas", "rodachines", "roachines", "industriales", "para alumilio", "soldadura"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-7/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_14fa4b9ff44e49b395d1c54325fb7268~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_14fa4b9ff44e49b395d1c54325fb7268~mv2.png",
-        keywords: ["fertornillos", "ferreteria", "electicidad", "tornillos", "discos", "silicona", "pulidora", "brocas", "tuberia", "pintura en aerosol", "sintisolda", "instantaneo", "pegante", "herramientas", "luces", "bombillos", "cadenas", "zogas", "sogas", "nailon", "cadenas"],
+        keywords: ["fertornillos", "ferreteria", "electicos", "electronicos", "a domicilio", "electicidad", "tornillos", "discos", "silicona", "pulidora", "brocas", "tuberia", "pintura en aerosol", "sintisolda", "instantaneo", "pegante", "herramientas", "luces", "bombillos", "cadenas", "zogas", "sogas", "nailon", "cadenas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-7/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_65e9d88ccbf041d3b25508cd634ea1cb~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_65e9d88ccbf041d3b25508cd634ea1cb~mv2.png",
-        keywords: ["forromotos", "forros", "tapizado", "para moto", "cascos", "luces", "accesorios para moto", "repuestos", "taller de motos", "mecanico", "tecnico", "cambio de aceite", "despinche", "montallantas para moto", "lujos", "aceite para moto", "llantas", "neumaticos", "corazas", "rines", "kit de arrastre", "tapizado de motos", "chalecos", "impermeable", "bolso para motos", "luz led", "bombillos led"],
+        keywords: ["forromotos", "forros", "tapizado", "electrodos", "gratas", "para moto", "cascos", "luces", "accesorios para moto", "repuestos", "taller de motos", "mecanico", "tecnico", "cambio de aceite", "despinche", "montallantas para moto", "lujos", "aceite para moto", "llantas", "neumaticos", "corazas", "rines", "kit de arrastre", "tapizado de motos", "chalecos", "impermeable", "bolso para motos", "luz led", "bombillos led"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-9-1/locales",
     },
     {
@@ -240,7 +240,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_2529e1a8380f4c3f87968c931313c529~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_2529e1a8380f4c3f87968c931313c529~mv2.png",
-        keywords: ["el jardinero", "jardinero", "podador", "podado", "jardineria", "arboles", "jardin"],
+        keywords: ["el jardinero", "Poda de Árboles", "Siembra", "Fumigación", "Corte de Césped", "Dise?", "jardinero", "podador", "podado", "jardineria", "arboles", "jardin"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-8/locales",
     },
     {
@@ -252,7 +252,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8fbab53ae3d548d694ab319ec2701e19~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_8fbab53ae3d548d694ab319ec2701e19~mv2.png",
-        keywords: ["restaurante king", "asadero", "restaurante", "comida", "pollo asado", "pollo broaster", "pollo broster", "almuerzo", "a domicilio"],
+        keywords: ["restaurante king", "asadero", "restaurante", "comida", "poyo", "pollo asado", "pollo broaster", "pollo broster", "almuerzo", "a domicilio"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-le-prova-burguer",
     },
     {
@@ -270,7 +270,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png",
-        keywords: ["aqui si es tolima", "lechoneria", "lechona", "tamales", "desayunos", "restaurante"],
+        keywords: ["aqui si es tolima", "lechoneria", "lechona", "tamales", "desayunos", "restaurante", "domingo"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-d-lokos",
     },
     {
