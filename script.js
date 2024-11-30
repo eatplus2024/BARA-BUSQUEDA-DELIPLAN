@@ -282,7 +282,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_271a84a6ab8a4c9a9f6b876e0f9c481d~mv2.png/v1/fill/w_553,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_271a84a6ab8a4c9a9f6b876e0f9c481d~mv2.png",
-        keywords: ["lindo pie", "calzado", "femenin", "colegio", "colegiales", "para mujer", "de mujer", "mujeres", "hombres", "damas", "caballeros", "juvenil", "balones", "guayos", "zapatos", "bolsos", "correas", "sandalias", "chanclas", "tacones"],
+        keywords: ["lindo pie", "calzado", "zapatillas", "sandalias", "clasicos", "deportivos", "para caballeros", "para hombres", "femenin", "colegio", "colegiales", "para mujer", "de mujer", "mujeres", "hombres", "damas", "caballeros", "juvenil", "balones", "guayos", "zapatos", "bolsos", "correas", "sandalias", "chanclas", "tacones"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-4/locales",
     },
     {
@@ -444,8 +444,14 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_1af61e10fef1451d9e9350ef98e9dab5~mv2.png/v1/fill/w_500,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_1af61e10fef1451d9e9350ef98e9dab5~mv2.png",
-        keywords: ["La tienda del pie", "calzado", "zapatos", "colegiales", "para el colegio", "femeninos", "femeninas", "para mujeres", "masculinos", "chanclas", "sandalias", "tacones", "para niños", "para niñas"],
+        keywords: ["La tienda del pie", "calzado", "zapatillas", "sandalias", "zapatos", "colegiales", "para el colegio", "femeninos", "femeninas", "para mujeres", "masculinos", "chanclas", "sandalias", "tacones", "para niños", "para niñas", "para caballeros", "para hombres", "clasicos", "deportivos"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-3/locales",
+    },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_fe8ad2725ed74d469ab62485c17f4cb0~mv2.png/v1/fill/w_313,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_fe8ad2725ed74d469ab62485c17f4cb0~mv2.png",
+        keywords: ["Estilos hr", "calzado", "zapatos", "zapatillas", "sandalias", "colegiales", "para el colegio", "femeninos", "femeninas", "para mujeres", "masculinos", "chanclas", "sandalias", "tacones", "para niños", "para niñas", "para caballeros", "para hombres", "clasicos", "deportivos"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-11/locales",
     },
 ];
 
