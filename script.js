@@ -42,13 +42,13 @@ const images = [
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png",
-        keywords: ["la esquina del sabor", "comidas rapidas", "carne al barril", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros calientes", "carnes", "pechuga a la plancha", "churrasco", "gratinada", "res", "cerdo", "carne gulach", "pollo apanado", "milanesa", "Chuleta", "bandeja minipaisa", "mojarra cachama costillitas costillas bbq argentino"],
+        keywords: ["la esquina del sabor", "comidas rapidas", "carne al barril", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros calientes", "carnes", "pechuga a la plancha", "churrascos", "gratinadas", "res", "cerdo", "carnes gulach", "pollo apanado gaseosas", "milanesas", "Chuletas", "bandeja minipaisa", "mojarras cachamas costillitas costillas bbq argentino"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-barista-coffee-bread-2",
     },
     {
         id: 3,
         url: "https://static.wixstatic.com/media/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png",
-        keywords: ["le prova burger", "comidas rapidas", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros"],
+        keywords: ["le prova burger", "comidas rapidas", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros", "churrasco pechuga a la plancha gratinada con champoñones con camarones costillitas costillas BBQ jugos naturales citrica sitricas en soda granizados gaseosas papas francesas clasicos clasicas rancheros rancheras hawaianos choriperros chorpapas pinchos tocinetas jalapeños chimichurri alitas montañera bañadas apanadas"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-plantilla-locales",
     },
     {
@@ -60,19 +60,19 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png",
-        keywords: ["deluxe terraza", "deluz", "delus", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros"],
+        keywords: ["deluxe terraza", "deluz", "delus", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros calientes", "costillas costillitas BBQ pechugas carnes nachos tacos mazorcadas clasicos clasicas rancheros sanduich sandwich tocinetas tosinetas papas francesas doritos ranchera patacon patacones pataconas choripapas dorilocos granizados jugos naturales limonadas de coco micheladas cerezadas],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-aldin%C3%AD-1",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png",
-        keywords: ["ayl extintores y dotaciones", "recargas", "uniformes", "botas", "cascos", "construcción", "seguridad", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia"],
+        keywords: ["ayl extintores y dotaciones", "recargas", "uniformes", "botas", "cascos", "construcción", "seguridad", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia", "conos"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-5/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_cd3d69d08aba49eea9767bf866abed2c~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_cd3d69d08aba49eea9767bf866abed2c~mv2.png",
-        keywords: ["Hamburguesas del llano", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros"],
+        keywords: ["Hamburguesas del llano", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros calientes" ],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-do%C3%B1a-barbara",
     },
     {
@@ -228,7 +228,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png",
-        keywords: ["muebles hym", "fabrica", "distribuidora", "muebles", "cama", "colchon", "espaldar", "sabana", "tendido", "artesanias", "toldillo", "cuadro", "sofa", "peinador", "nochero", "semanario", "closet", "sala", "comedor", "electrodomesticos", "estufas", "televisores", "tv", "freidora", "licuadoras", "espeaker", "altavoces", "ventiladores", "sanduchera", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas"],
+        keywords: ["muebles hym", "fabrica", "distribuidora", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "cuadros", "sofas sofacamas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores", "electrodomesticos", "estufas", "televisores", "tv", "freidoras de aire", "licuadoras", "espeakers", "altavoces", "ventiladores", "sanducheras", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas cillas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-5/locales",
     },
     {
