@@ -60,7 +60,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_76bbdd98c7fd4246875932cefa9ecfd9~mv2.png",
-        keywords: ["deluxe terraza", "deluz", "delus", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros"],
+        keywords: ["deluxe terraza", "deluz", "delus", "comidas rapidas", "helados", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas clasicas francesas rancheras mixta bbq mexicana patacon patacones pataconas criolla", "perros", "choripapa", "dorilocos", "granizados", "jugos naturales", "limonada de coco", "Micheladas", "citricas sitricas", "cerezadas", "costillas costillitas", "pechuga", "carnes", "nachos", "tacos", "mazorcadas"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-aldin%C3%AD-1",
     },
     {
