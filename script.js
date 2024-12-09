@@ -48,7 +48,7 @@ const images = [
     {
         id: 3,
         url: "https://static.wixstatic.com/media/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_a671705bf72744889094a0464a51ed17~mv2.png",
-        keywords: ["le prova burger", "comidas rapidas", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros"],
+        keywords: ["le prova burger", "comidas rapidas", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros calientes", "carnes", "churrascos", "pechugas a la plancha gratinadas con champiñones camarones costillitas costillas bbq", "jugos naturales", "citricas en soda sitricas", "naranjadas", "granizados", "gaseosas", "papas francesas crioillas", "clasicos clasicas", "rancheros rancheras", "hawaianos", "choriperros", "choripapas", "pinchos", "tocinetas", "champiñones", "jalapeños", "chimichurri", "montañera", "alitas bañadas o apanadas"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-plantilla-locales",
     },
     {
