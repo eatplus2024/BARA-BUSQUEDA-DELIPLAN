@@ -353,12 +353,6 @@ const images = [
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_c862c0d7ad394e8f8e7ca140e3e09185~mv2.png/v1/fill/w_608,h_301,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_c862c0d7ad394e8f8e7ca140e3e09185~mv2.png",
-        keywords: ["Maria salome", "drogueria", "tratamientos", "vitaminas", "sueros", "pañales", "inyectologia", "sueros vitaminados", "toma de glucometias", "sueroterapia", "vitaminas", "minerales y oligoelementos", "vitamina c"],
-        link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-3/locales",
-    },
-    {
-        id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_630f1a3e4b654de782ecb36c2b530887~mv2.png/v1/fill/w_559,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_630f1a3e4b654de782ecb36c2b530887~mv2.png",
         keywords: ["metalicas san alejo", "ornamentacion", "soldadura", "estantes", "estructuras", "puertas", "ventanas", "parrillas", "rejas", "enrejado"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-7-2/locales",
