@@ -108,13 +108,13 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_7f4fbf7ee449462da5ad796ae0354399~mv2.png/v1/fill/w_560,h_279,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_7f4fbf7ee449462da5ad796ae0354399~mv2.png",
-        keywords: ["pañalera camaritas", "coche", "caminador", "para niño", "para niña", "caminador", "orinal", "ropa", "zapatos", "maternidad", "lactancia", "juguetes", "bebe"],
+        keywords: ["pañalera camaritas", "coche", "caminador", "para niños", "para niñas", "caminadores", "orinales", "ropa", "zapatos", "maternidad", "lactancia", "juguetes", "bebes"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-7-1/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_d5f36e54d68f4a72bc52113ad2456d08~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_d5f36e54d68f4a72bc52113ad2456d08~mv2.png",
-        keywords: ["carlitos.net", "papeleria", "copias", "impresiones", "utiles", "escolar", "colegio", "recargas", "peluches", "para mujer", "llaveros", "accesorios", "auriculares", "audifonos", "cargadores", "para celular"],
+        keywords: ["carlitos.net", "papelerias", "copias", "impresiones", "utiles", "escolar", "colegio", "recargas", "peluches", "para mujeres", "llaveros", "accesorios", "auriculares", "audifonos", "cargadores", "para celulares"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-1/locales",
     },
     {
@@ -126,13 +126,13 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_83c8d1e56e05467e8c12916dfcb2d49c~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_83c8d1e56e05467e8c12916dfcb2d49c~mv2.png",
-        keywords: ["decorplass", "remodelacion", "adecuacion", "contratista", "maestro de construccion", "techos en pvc", "divicion de baño en vidrio templado", "en acrilico", "en aluminio", "muebles en madera rh", "ventanas en vidrio", "puertas en vidrio", "driwall", "dreibol", "distribuidora", "ornamentacion", "mucbles de cocina", "decoracion", "remodelar", "materiales", "construcción", "acabados", "cerrageria", "puerta", "vidrios", "adecuacion"],
+        keywords: ["decorplass", "remodelacion", "adecuacion", "contratista", "maestro de construccion", "techos en pvc", "divicion de baño en vidrio templado", "en acrilico", "en aluminio", "muebles en madera rh", "ventanas en vidrio", "puertas en vidrio", "driwall", "dreibol", "distribuidora", "ornamentacion", "mucbles de cocina", "decoracion", "remodelar", "materiales", "construcción", "acabados", "cerrageria", "puerta", "vidrios", "adecuacion", "electricos", "electrica"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-14-1/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_5cdb359ec67943dc8e0bcc4f4fb312a8~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_5cdb359ec67943dc8e0bcc4f4fb312a8~mv2.png",
-        keywords: ["distrillaves", "copia de llaves", "cerrajeria", "cerrajero", "chapas", "llaves", "puerta"],
+        keywords: ["distrillaves", "copia de llaves", "cerrajeria", "cerrajero", "chapas", "llaves", "puertas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-7-of-locales-2-2-2-1/locales",
     },
     {
@@ -150,19 +150,19 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_af96e3a54c2140f0a1104de0c8c6b093~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_af96e3a54c2140f0a1104de0c8c6b093~mv2.png",
-        keywords: ["donde pacho", "ropa deportiva", "prendas", "camisetas deportivas", "sudaderas", "pantalonetas", "balones", "peluches", "accesorios", "deporte"],
+        keywords: ["donde pacho", "ropa deportiva", "prendas", "camisetas deportivas", "sudaderas", "pantalonetas", "balones", "peluches", "accesorios", "deportes"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-6/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_84ee5aa5ce3c4789917058d7e9b991f0~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_84ee5aa5ce3c4789917058d7e9b991f0~mv2.png",
-        keywords: ["Dsysk celulares", "accesorios para celular", "fundas", "estuches", "antichoques", "cargador", "audifonos", "diadema", "speaker", "altavoz", "altavoces", "mouse", "teclado", "vidrios para telefono", "control", "movil", "gamepad", "mando", "gamer", "servicio tecnico"],
+        keywords: ["Dsysk celulares", "accesorios para celulares", "fundas", "estuches", "antichoques", "cargadores", "audifonos", "diademas", "speakers", "altavoz", "altavoces", "mouses", "teclados", "vidrios para telefonos", "controles", "moviles", "gamepad", "mandos", "gamers", "servicio tecnico"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-14/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_9d81a4c5f09c477cb61929bc25e359af~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_9d81a4c5f09c477cb61929bc25e359af~mv2.png",
-        keywords: ["el girasol", "proteinas", "vitaminas", "vitacerebrina", "tienda naturista", "natural", "productos naturales", "midicina", "medicamentos", "purgante", "potencializador"],
+        keywords: ["el girasol", "proteinas", "vitaminas", "vita cerebrina", "tienda naturista", "natural", "productos naturales", "midicinas", "medicamentos", "purgantes", "potencializadores", "factores de transferencia", "colagenos", "proteinas", "mero macho", "purgantes"],
         link: "https://eatcomercial01.wixsite.com/website-1/locales/locales",
     },
     {
@@ -174,7 +174,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_0e018eba56ea48dc9516d722e28c9bf0~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_0e018eba56ea48dc9516d722e28c9bf0~mv2.png",
-        keywords: ["el viejo oeste de la pizza", "pizza", "pizzeria", "a domicilio"],
+        keywords: ["el viejo oeste de la pizza", "pizzas", "pizzeria", "a domicilios"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-matilde",
     },
     {
@@ -210,13 +210,13 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_14fa4b9ff44e49b395d1c54325fb7268~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_14fa4b9ff44e49b395d1c54325fb7268~mv2.png",
-        keywords: ["fertornillos", "ferreterias", "electicos", "electronicos", "a domicilio", "electicidad", "tornillos", "discos", "silicona", "pulidora", "brocas", "tuberia", "pintura en aerosol", "sintisolda", "instantaneo", "pegante", "herramientas", "luces", "bombillos", "cadenas", "zogas", "sogas", "nailon", "cadenas", "llaves", "metros", "cintas de enmascarar", "rodillos", "lamparas", "sintas", "silicona", "cilicona", "brocas", "discos para pulidadora", "espatulas", "niveles", "guantes", "gafas", "pistolas", "rodillos", "alicates", "pinsas", "hombresolos", "bombillos"],
+        keywords: ["fertornillos", "ferreterias", "electricos", "electronicos", "a domicilio", "electicidad", "tornillos", "discos", "silicona", "pulidora", "brocas", "tuberia", "pintura en aerosol", "sintisolda", "instantaneo", "pegante", "herramientas", "luces", "bombillos", "cadenas", "zogas", "sogas", "nailon", "cadenas", "llaves", "metros", "cintas de enmascarar", "rodillos", "lamparas", "sintas", "silicona", "cilicona", "brocas", "discos para pulidadora", "espatulas", "niveles", "guantes", "gafas", "pistolas", "rodillos", "alicates", "pinsas", "hombresolos", "bombillos", "portaelectrodo jackson", "tablero", "chapas y cerraduras", "nylons", "copias de llaves", "candados", "mangueras", "palos", "cabos", "electricas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-7/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_65e9d88ccbf041d3b25508cd634ea1cb~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_65e9d88ccbf041d3b25508cd634ea1cb~mv2.png",
-        keywords: ["forromotos", "forros", "tapizado", "electrodos", "gratas", "para moto", "cascos", "luces", "accesorios para moto", "repuestos", "taller de motos", "mecanico", "tecnico", "cambio de aceite", "despinche", "montallantas para moto", "lujos", "aceite para moto", "llantas", "neumaticos", "corazas", "rines", "kit de arrastre", "tapizado de motos", "chalecos", "impermeable", "bolso para motos", "luz led", "bombillos led"],
+        keywords: ["forromotos", "forros", "tapizado", "electrodos", "gratas", "para moto", "cascos", "luces", "accesorios para moto", "repuestos", "taller de motos", "mecanico", "tecnico", "cambio de aceite", "despinche", "montallantas para moto", "lujos", "aceite para moto", "llantas", "neumaticos", "corazas", "rines", "kits de arrastres", "tapizado de motos", "chalecos", "impermeable", "bolsos para motos", "luz led", "bombillos led", "espejos baules maleteros pastillas bandas candados alarmas", "defenzas parrillas guantes manilares", "guarda cadenas portaplacas rodilleras lubricantes", "sliders espumas guardabarros portavientos", "impermeables exploradoras soportes para celular", "botas maniguetas mantenimiento taller calcomanias"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-9-1/locales",
     },
     {
