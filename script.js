@@ -66,7 +66,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png",
-        keywords: ["ayl extintores y dotaciones", "recargas", "uniformes", "botas", "cascos", "construcción", "seguridad", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia"],
+        keywords: ["ayl extintores y dotaciones", "recargas", "uniformes", "botas", "cascos", "construcción", "seguridad industrial", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-5/locales",
     },
     {
@@ -192,13 +192,13 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_acdf01e283be400f83b3ce037a2a93e8~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_acdf01e283be400f83b3ce037a2a93e8~mv2.png",
-        keywords: ["estacion crochet", "yohana gonzalez", "bolsos", "manualidades", "insumos para tejeduria", "distribuidora", "trapillo", "tejido", "talleres"],
+        keywords: ["estacion crochet", "yohana gonzalez", "bolsos", "manualidades", "insumos para tejeduria", "distribuidoras", "trapillo", "tejidos", "talleres", "crochet", "macrame", "lanas", "copito chelin manualidades amigurumis agujas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-5-1/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_4bcccd598ee7498da97ccbd575eba3ba~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_4bcccd598ee7498da97ccbd575eba3ba~mv2.png",
-        keywords: ["estilo y confort", "fabrica", "distribuidora", "alfombras", "tapetes", "muebles", "cama", "colchon", "espaldar", "sabana", "tendido", "artesanias", "toldillo", "cuadro", "sofa", "peinador", "nochero", "semanario", "closet", "sala", "comedor"],
+        keywords: ["estilo y confort", "fabricas", "distribuidoras", "alfombras", "tapetes", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-6-of-locales-2-2-2-1/locales",
     },
     {
@@ -228,13 +228,13 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png",
-        keywords: ["muebles hym", "fabrica", "distribuidora", "muebles", "cama", "colchon", "espaldar", "sabana", "tendido", "artesanias", "toldillo", "cuadro", "sofa", "peinador", "nochero", "semanario", "closet", "sala", "comedor", "electrodomesticos", "estufas", "televisores", "tv", "freidora", "licuadoras", "espeaker", "altavoces", "ventiladores", "sanduchera", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas"],
+        keywords: ["muebles hym", "fabricas", "distribuidoras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores", "electrodomesticos", "estufas", "televisores", "tv", "freidoras", "licuadoras", "espeaker", "altavoces", "ventiladores", "sanducheras", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas cillas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-5/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_bd4b1b4a27be4d58a10362e9d6988342~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_bd4b1b4a27be4d58a10362e9d6988342~mv2.png",
-        keywords: ["joyeria italiana", "fabrica", "joyeria", "cadenas", "accesorios", "anillos", "argollas", "matrimonio", "boda", "collares", "15 años", "aretes", "relojes", "de pared", "decorativos", "oro", "plata", "joyas"],
+        keywords: ["joyeria italiana", "fabricas", "joyerias", "cadenas", "accesorios", "anillos", "argollas", "matrimonio", "boda", "collares", "15 años", "aretes", "relojes", "de pared", "decorativos", "oro", "plata", "joyas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-6/locales",
     },
     {
@@ -252,7 +252,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8fbab53ae3d548d694ab319ec2701e19~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_8fbab53ae3d548d694ab319ec2701e19~mv2.png",
-        keywords: ["restaurante king", "asadero", "restaurante", "comida", "poyo", "pollo asado", "pollo broaster", "pollo broster", "almuerzo", "a domicilio"],
+        keywords: ["restaurante king", "asaderos", "restaurantes", "comida", "poyo", "pollo asado", "pollo broaster", "pollo broster", "almuerzos", "a domicilios"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-le-prova-burguer",
     },
     {
@@ -264,7 +264,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_e1100ad7160d472c824433dd90571975~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_e1100ad7160d472c824433dd90571975~mv2.png",
-        keywords: ["la flaca", "montallantas", "despinchadero a domicilio", "despinchadero", "cambio de aceite", "de carros", "de motos"],
+        keywords: ["la flaca", "montallantas", "despinchadero a domicilio", "despinchadero", "cambio de aceite", "de carros", "de motos", "bulcanizado", "culcanizado"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-4-of-locales-7-2/locales",
     },
     {
@@ -306,19 +306,19 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png",
-        keywords: ["nerkapaisa", "merca", "supermercado", "fruber"],
+        keywords: ["nerkapaisa", "merca", "supermercado", "fruber", "fruver"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_2fbaee65d3a545848c836c9479544808~mv2.png/v1/fill/w_560,h_275,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_2fbaee65d3a545848c836c9479544808~mv2.png",
-        keywords: ["metales y servicios", "metales", "perfiles", "dobladora", "pintura", "construccion", "ornamentacion"],
+        keywords: ["metales y servicios", "metales", "perfiles", "dobladora", "pintura", "construccion", "ornamentacion", "laminas", "cortadoras"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-7/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_f293433e12ae48b3a1972c50d154d934~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_f293433e12ae48b3a1972c50d154d934~mv2.png",
-        keywords: ["paso fino", "calzado", "cuchillos", "sombrereria", "sombreros", "cotizas", "correas", "gorras", "botas", "ponchos", "llaneridades", "artesanias", "turismo", "bastimento llanero", "amacas", "billeteras", "estuches", "cuero", "llaveros", "decorativos", "ruanas", "chapas", "bolsos", "accesorios", "chimu"],
+        keywords: ["paso fino", "calzado", "cuchillos", "sombrereria", "sombreros", "cotizas", "correas en cuero", "carrieles", "gorras", "botas", "ponchos", "llaneridades", "artesanias", "turismo", "bastimento llanero", "amacas", "billeteras", "estuches", "cuero", "llaveros", "decorativos", "ruanas", "chapas", "bolsos", "accesorios", "chimu", "perreros", "mandadores"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-5-of-locales-2-2-1/locales",
     },
     {
@@ -330,7 +330,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_7ccfcf5df1ae40988f172a458afbbf3f~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_7ccfcf5df1ae40988f172a458afbbf3f~mv2.png",
-        keywords: ["Petland", "clinica veterinaria", "cama de mascotas", "casa de mascotas", "bolso de mascotas", "juguetes para mascotas", "veterinaria", "animales", "mascotas", "esterilizacion", "cirujia", "jaula", "gatos", "perros", "collar", "isabelinno", "comida para mascotas", "medicamentos para mascotas", "tratamientos para mascotas", "peluqueria y peinados para mascotas", "accesorios para mascotas", "arnes"],
+        keywords: ["Petland", "clinica veterinaria", "camas de mascotas", "casas de mascotas", "bolsos de mascotas", "juguetes para mascotas", "veterinarias", "animales", "mascotas", "esterilizacion", "cirujias", "jaulas", "gatos", "perros", "collares", "isabelinos", "comida para mascotas", "medicamentos para mascotas", "tratamientos para mascotas", "peluqueria y peinados para mascotas", "accesorios para mascotas", "arnes"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-7-1/locales",
     },
     {
@@ -348,19 +348,19 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_dd13b9619a0b4c10b8f3fc92c601f894~mv2.png/v1/fill/w_560,h_279,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_dd13b9619a0b4c10b8f3fc92c601f894~mv2.png",
-        keywords: ["riki pollo", "asadero", "restaurante", "comida", "pollo asado", "pollo broaster", "pollo broster", "almuerzo", "a domicilio"],
+        keywords: ["riki pollo", "asadero", "restaurante", "comida", "pollo asado", "pollo broaster", "pollo broster", "almuerzo", "a domicilio", "sopas", "caldos"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-deluxe-terraza-1",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_630f1a3e4b654de782ecb36c2b530887~mv2.png/v1/fill/w_559,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_630f1a3e4b654de782ecb36c2b530887~mv2.png",
-        keywords: ["metalicas san alejo", "ornamentacion", "soldadura", "estantes", "estructuras", "puertas", "ventanas", "parrillas", "rejas", "enrejado"],
+        keywords: ["metalicas san alejo", "ornamentacion", "soldadura", "estantes", "estructuras", "puertas", "ventanas", "parrillas", "rejas", "enrejados"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-7-2/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_6ed633234ff640f893c4ff5f1518872e~mv2.png/v1/fill/w_559,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_6ed633234ff640f893c4ff5f1518872e~mv2.png",
-        keywords: ["Segtronic gps", "gps", "gprs", "rastreo satelital", "monitoreo satelital", "para carros", "para motos", "tecnologia gps"],
+        keywords: ["Segtronic gps", "gps", "gprs", "rastreo satelital", "monitoreo satelital", "para carros", "para motos", "tecnologia gps", "industrial", "empresas", "compañias"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-2/locales",
     },
     {
@@ -372,7 +372,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_aa1092a831a0437b8ec21674c0499f14~mv2.png/v1/fill/w_559,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_aa1092a831a0437b8ec21674c0499f14~mv2.png",
-        keywords: ["surtihuevos sami", "huevos", "panela", "papelon", "miel", "aceite", "distribuidora"],
+        keywords: ["surtihuevos sami", "huevos", "panela", "papelon", "miel", "aceite", "distribuidora", "salchicon", "minimercado"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-4/locales",
     },
     {
@@ -396,7 +396,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_9f53f17a6b3549088fc969632b7f5d54~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_9f53f17a6b3549088fc969632b7f5d54~mv2.png",
-        keywords: ["The project", "ollas", "hollas", "bitrinas", "vitrinas", "estufas industriales", "hornos", "asadores", "caserolas", "sartenes", "pitadoras"],
+        keywords: ["The project", "ollas", "hollas", "bitrinas", "vitrinas", "estufas industriales", "hornos", "asadores", "caserolas", "sartenes", "pitadoras", "a presion"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-11/locales",
     },
     {
