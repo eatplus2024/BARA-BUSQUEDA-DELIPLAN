@@ -459,6 +459,12 @@ const images = [
         keywords: ["Estucos y masillas", "pinturas", "aerosol", "espray", "lijas", "electricos", "electricidad", "electrica", "tuvos", "tubos", "codos", "sifones", "cifones", "brochas", "tornillos", "graniplas", "pegantes", "fabricas", "ferreterias", "materiales", "esmaltes", "anticorrosivos", "ceramicos", "seramicos", "superpega", "herramientas", "llaves", "metros", "cintas de enmascarar", "rodillos", "lamparas", "sintas", "silicona", "cilicona", "brocas", "discos para pulidadora", "espatulas", "niveles", "guantes", "gafas", "pistolas", "rodillos", "alicates", "pinsas", "hombresolos"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-6-of-locales-11/locales",
     },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_a8c5b06c36194e9bb5e766e5230759c5~mv2.png/v1/fill/w_313,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_a8c5b06c36194e9bb5e766e5230759c5~mv2.png",
+        keywords: ["arepaisas", "arepas", "comidas rapidas", "con queso", "con chorizo", "chorizos", "frijoles", "calentados", "asadas", "con carne", "paisas"],
+        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-le-prova-burguer-2",
+    },
 ];
 
 // Lista de palabras comunes que no se deben considerar
