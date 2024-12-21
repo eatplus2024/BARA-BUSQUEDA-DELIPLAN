@@ -465,6 +465,12 @@ const images = [
         keywords: ["arepaisas", "arepas", "comidas rapidas", "con queso", "con chorizo", "chorizos", "frijoles", "calentados", "asadas", "con carne", "paisas"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-le-prova-burguer-2",
     },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_a5c55e721e64470aac4381259a38794a~mv2.png/v1/fill/w_313,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_a5c55e721e64470aac4381259a38794a~mv2.png",
+        keywords: ["Maxidescuentos", "ropa", "femenina", "juvenil", "damas", "mujeres", "vestidos", "prendas", "faldas", "gala", "matrimonio", "boda", "15 años", "comunion", "camisas", "pantalones", "gorras", "correas", "blusas", "chalecos", "chaquetas", "minifaldas", "ropa interior", "busos", "camisetas", "para hombres", "masculinas masculinos", "para niño niña"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-4-of-locales-11/locales",
+    },
 ];
 
 // Lista de palabras comunes que no se deben considerar
