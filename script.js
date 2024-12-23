@@ -474,8 +474,8 @@ const images = [
     {
         id: 1,
         url: "https://static.wixstatic.com/media/a4f6c8_b69ad1717ae74076b7044be5354277f7~mv2.png/v1/fill/w_313,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_b69ad1717ae74076b7044be5354277f7~mv2.png",
-        keywords: ["taxi", "Taxis", "taxistas"],
-        link: "https://eatcomercial01.wixsite.com/website-1/turitaxis",
+        keywords: ["Multiservicios", "lavaderos", "lavado", "carros", "motos", "lava autos", "lavautos", "parqueaderos", "donde lucho", "automotriz", "aceites", "lubricantes", "polichado"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-4-1/locales",
     },
 ];
 
