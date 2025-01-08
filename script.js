@@ -18,7 +18,7 @@ const images = [
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_04ad6e3130d04f4dada287584d18cf01~mv2.png",
-        keywords: ["muebles js", "distribuidoras", "fabrica", "alfombras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
+        keywords: ["muebles js", "distribuidoras", "hogar", "fabrica", "alfombras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-8/locales",
     },
     {
@@ -30,7 +30,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_8c699bccce5f4ae28c6bee5e6edcb441~mv2.png",
-        keywords: ["el garcero", "turisticos", "cafeterias", "restaurantes", "doña barbara", "carne", "carta", "turismo", "comidas", "almuerzos", "cenas", "bares", "domicilios", "el garcero"],
+        keywords: ["el garcero", "turisticos", "cafeterias", "restaurantes", "doña barbara", "carne", "carta", "turismo", "comidas rapidas", "almuerzos", "cenas", "bares", "domicilios", "el garcero"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-soy-picapiedra-1",
     },
     {
@@ -66,7 +66,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_90ada120ace44d41a8b5b66520e439d0~mv2.png",
-        keywords: ["ayl extintores y dotaciones", "recargas", "uniformes", "botas", "cascos", "construcción", "seguridad industrial", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia"],
+        keywords: ["ayl extintores y dotaciones", "recargas", "uniformes", "botas", "cascos", "construcción", "seguridad industrial", "señalizacion", "guantes", "gafas", "botiquin", "kit de carreteras", "carros", "elementos", "compañia", "industriales"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-5/locales",
     },
     {
@@ -108,7 +108,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_7f4fbf7ee449462da5ad796ae0354399~mv2.png/v1/fill/w_560,h_279,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_7f4fbf7ee449462da5ad796ae0354399~mv2.png",
-        keywords: ["pañalera camaritas", "coche", "caminador", "para niños", "para niñas", "caminadores", "orinales", "ropa", "zapatos", "maternidad", "lactancia", "juguetes", "bebes"],
+        keywords: ["pañalera camaritas", "coche", "caminador", "para niños", "para niñas", "caminadores", "orinales", "ropa", "zapatos", "maternidad", "lactancia", "juguetes", "bebes", "infantiles"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-7-1/locales",
     },
     {
@@ -132,7 +132,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_5cdb359ec67943dc8e0bcc4f4fb312a8~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_5cdb359ec67943dc8e0bcc4f4fb312a8~mv2.png",
-        keywords: ["distrillaves", "copia de llaves", "cerrajeria", "cerrajero", "chapas", "llaves", "puertas"],
+        keywords: ["distrillaves", "copias de llaves", "cerrajeria", "cerrajero", "chapas", "llaves", "puertas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-7-of-locales-2-2-2-1/locales",
     },
     {
@@ -180,19 +180,19 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_debce199ddcf496980f9db70f9f05b3c~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_debce199ddcf496980f9db70f9f05b3c~mv2.png",
-        keywords: ["floristeria enamorate", "para velorio", "flores", "detalles", "regalos", "peluches", "flores", "matrimonio", "eventos", "arreglos", "decoracion", "fiestas", "15 años", "ramos", "para cepelio"],
+        keywords: ["floristerias enamorate", "para velorio", "flores", "detalles", "regalos", "peluches", "flores", "matrimonio", "eventos", "arreglos", "decoracion", "fiestas", "15 años", "ramos", "para cepelio"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-8-of-locales-2-1-2/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_5f8b560f72f14bbfa55427111c3e9356~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_5f8b560f72f14bbfa55427111c3e9356~mv2.png",
-        keywords: ["la casa de la energia solar", "energia solar", "paneles", "bombas", "neveras", "congeladores", "baterias", "inversores", "reguladores", "impulsores", "cercas electricas"],
+        keywords: ["la casa de la energia solar", "energia solar", "paneles solares", "bombas", "neveras", "congeladores", "baterias", "inversores", "reguladores", "impulsores", "cercas electricas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-4/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_acdf01e283be400f83b3ce037a2a93e8~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_acdf01e283be400f83b3ce037a2a93e8~mv2.png",
-        keywords: ["estacion crochet", "yohana gonzalez", "bolsos", "manualidades", "insumos para tejeduria", "distribuidoras", "trapillo", "tejidos", "talleres", "crochet", "macrame", "lanas", "copito chelin manualidades amigurumis agujas"],
+        keywords: ["estacion crochet", "yohana gonzalez", "bolsos", "manualidades", "insumos para tejeduria", "Costuras", "distribuidoras", "trapillo", "tejidos", "talleres", "crochet", "macrame", "lanas", "copito chelin manualidades amigurumis agujas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-5-1/locales",
     },
     {
@@ -216,25 +216,25 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_65e9d88ccbf041d3b25508cd634ea1cb~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_65e9d88ccbf041d3b25508cd634ea1cb~mv2.png",
-        keywords: ["forromotos", "forros", "tapizado", "electrodos", "gratas", "para moto", "cascos", "luces", "accesorios para moto", "repuestos", "taller de motos", "mecanico", "tecnico", "cambio de aceite", "despinche", "montallantas para moto", "lujos", "aceite para moto", "llantas", "neumaticos", "corazas", "rines", "kits de arrastres", "tapizado de motos", "chalecos", "impermeable", "bolsos para motos", "luz led", "bombillos led", "espejos baules maleteros pastillas bandas candados alarmas", "defenzas parrillas guantes manilares", "guarda cadenas portaplacas rodilleras lubricantes", "sliders espumas guardabarros portavientos", "impermeables exploradoras soportes para celular", "botas maniguetas mantenimiento taller calcomanias"],
+        keywords: ["forromotos", "forros", "tapizados", "electrodos", "gratas", "para motos", "cascos", "luces", "accesorios para moto", "repuestos", "taller de motos", "mecanicos", "tecnicos", "cambio de aceite", "despinche", "montallantas para motos", "lujos", "aceite para motos", "llantas", "neumaticos", "corazas", "rines", "kits de arrastres", "tapizado de motos", "chalecos", "impermeable", "bolsos para motos", "luz led", "bombillos led", "espejos baules maleteros pastillas bandas candados alarmas", "defenzas parrillas guantes manilares", "guarda cadenas portaplacas rodilleras lubricantes", "sliders espumas guardabarros portavientos", "impermeables exploradoras soportes para celular", "botas maniguetas mantenimiento taller calcomanias"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-9-1/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_37555d2122dd42c1b4cf952129e0e780~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_37555d2122dd42c1b4cf952129e0e780~mv2.png",
-        keywords: ["grensi", "perfume", "locion", "perfumeria", "para hombre", "para mujer", "masculin", "femenin"],
+        keywords: ["grensi", "perfumes", "lociones", "perfumeria", "para hombres", "para mujeres", "masculinas masculinos", "femeninas femeninos", "belleza cuidado personal"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-2-3/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png",
-        keywords: ["muebles hym", "fabricas", "distribuidoras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores", "electrodomesticos", "estufas", "televisores", "tv", "freidoras", "licuadoras", "espeaker", "altavoces", "ventiladores", "sanducheras", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas cillas"],
+        keywords: ["muebles hym", "fabricas", "distribuidoras", "hogar", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores", "electrodomesticos", "estufas", "televisores", "tv", "freidoras", "licuadoras", "espeaker", "altavoces", "ventiladores", "sanducheras", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas cillas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-5/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_bd4b1b4a27be4d58a10362e9d6988342~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_bd4b1b4a27be4d58a10362e9d6988342~mv2.png",
-        keywords: ["joyeria italiana", "fabricas", "joyerias", "cadenas", "accesorios", "anillos", "argollas", "matrimonio", "boda", "collares", "15 años", "aretes", "relojes", "de pared", "decorativos", "oro", "plata", "joyas"],
+        keywords: ["joyeria italiana", "fabricas", "joyerias", "cadenas", "belleza", "accesorios", "anillos", "argollas", "matrimonio", "boda", "collares", "15 años", "aretes", "relojes", "de pared", "decorativos", "oro", "plata", "joyas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-6/locales",
     },
     {
@@ -264,13 +264,13 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_e1100ad7160d472c824433dd90571975~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_e1100ad7160d472c824433dd90571975~mv2.png",
-        keywords: ["la flaca", "montallantas", "despinchadero a domicilio", "despinchadero", "cambio de aceite", "de carros", "de motos", "bulcanizado", "culcanizado"],
+        keywords: ["la flaca", "montallantas", "despinchadero a domicilio", "despinchadero", "cambio de aceite", "de carros", "de motos", "bulcanizado", "vulcanizado volcanizado bolcanizado],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-4-of-locales-7-2/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png",
-        keywords: ["aqui si es tolima", "lechoneria", "lechona", "tamales", "desayunos", "restaurante", "domingo"],
+        keywords: ["aqui si es tolima", "lechoneria", "lechonas", "tamales", "desayunos", "restaurantes", "domingos"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-d-lokos",
     },
     {
@@ -288,25 +288,25 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_e4d16e4cb8f247588cc2443d884bd143~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_e4d16e4cb8f247588cc2443d884bd143~mv2.png",
-        keywords: ["llano farmex", "drogueria", "tratamientos", "vitaminas", "sueros", "pañales"],
+        keywords: ["llano farmex", "droguerias", "tratamientos", "vitaminas", "sueros", "pañales", "medicamentos", "formulas medicas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-5/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_faa186bfa928467e98c0e50c1aa9521b~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_faa186bfa928467e98c0e50c1aa9521b~mv2.png",
-        keywords: ["Lubes bike", "taller de bicicletas", "taller", "alta gama", "siclas", "mantenimiento", "de segunda"],
+        keywords: ["Lubes bike", "taller de bicicletas", "talleres", "alta gama", "siclas", "mantenimiento", "de segunda"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-1-1/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_b6fe5a0cd6a14f5f9f1ecde839915401~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_b6fe5a0cd6a14f5f9f1ecde839915401~mv2.png",
-        keywords: ["megaforros", "forros", "tapiceria", "tapizado", "de carros", "para carros"],
+        keywords: ["megaforros", "forros", "tapicerias", "tapizados", "de carros", "para carros"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-1-2/locales",
     },
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png",
-        keywords: ["nerkapaisa", "merca", "supermercado", "fruber", "fruver"],
+        keywords: ["nerkapaisa", "merca", "supermercados", "fruber", "fruver"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales/locales",
     },
     {
@@ -390,7 +390,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_eae395853fa149a09fe75ad3e2bd5162~mv2.png/v1/fill/w_560,h_275,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_eae395853fa149a09fe75ad3e2bd5162~mv2.png",
-        keywords: ["vidrios y aluminios ht", "ornamentacion", "ventanas", "puertas", "divisiones", "bitrinas", "vitrinas"],
+        keywords: ["vidrios y aluminios ht", "ornamentacion", "ventanas", "puertas", "divisiones", "bitrinas", "vitrinas", "industriales"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales/locales",
     },
     {
@@ -426,7 +426,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8d57bad435a9439eb604af187b6d24de~mv2.png/v1/fill/w_500,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_8d57bad435a9439eb604af187b6d24de~mv2.png",
-        keywords: ["pyly asesora", "asesoria juridica", "cartas y oficios", "contratos de compraventa", "obra y arrendamiento", "derechos de peticion", "trabajos en computador y documentos", "refuerzo escolar", "clases de inlges", "poderes", "hojas de vida", "autorizaciones", "cestificaciones", "validacion bachiller"],
+        keywords: ["pyly asesora", "asesoria juridica", "asesorias", "cartas y oficios", "contratos de compraventa", "obra y arrendamiento", "derechos de peticion", "trabajos en computador y documentos", "refuerzo escolar", "clases de inlges", "poderes", "hojas de vida", "autorizaciones", "cestificaciones", "validacion bachiller"],
         link: "https://eatcomercial01.wixsite.com/multiservicios-faro/copia-de-pcels-1",
     },
     {
@@ -456,7 +456,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_d3f7a4127abf4062b297c875c3bbc734~mv2.png/v1/fill/w_259,h_134,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_d3f7a4127abf4062b297c875c3bbc734~mv2.png",
-        keywords: ["Estucos y masillas", "pinturas", "aerosol", "espray", "lijas", "electricos", "electricidad", "electrica", "tuvos", "tubos", "codos", "sifones", "cifones", "brochas", "tornillos", "graniplas", "pegantes", "fabricas", "ferreterias", "materiales", "esmaltes", "anticorrosivos", "ceramicos", "seramicos", "superpega", "herramientas", "llaves", "metros", "cintas de enmascarar", "rodillos", "lamparas", "sintas", "silicona", "cilicona", "brocas", "discos para pulidadora", "espatulas", "niveles", "guantes", "gafas", "pistolas", "rodillos", "alicates", "pinsas", "hombresolos"],
+        keywords: ["Estucos y masillas", "pinturas", "aerosol", "espray", "lijas", "electricos", "electricidad", "electrica", "tuvos", "tubos", "codos", "sifones", "cifones", "brochas", "tornillos", "graniplas", "pegantes", "fabricas", "ferreterias", "materiales", "esmaltes", "anticorrosivos", "ceramicos", "seramicos", "superpega", "herramientas", "llaves", "metros", "cintas de enmascarar", "rodillos", "lamparas", "sintas", "silicona", "cilicona", "brocas", "discos para pulidadora", "espatulas", "niveles", "guantes", "gafas para construccion", "pistolas", "rodillos", "alicates", "pinsas", "hombresolos"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-6-of-locales-11/locales",
     },
     {
@@ -476,6 +476,12 @@ const images = [
         url: "https://static.wixstatic.com/media/a4f6c8_b69ad1717ae74076b7044be5354277f7~mv2.png/v1/fill/w_313,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_b69ad1717ae74076b7044be5354277f7~mv2.png",
         keywords: ["Multiservicios", "lavaderos", "lavado", "carros", "motos", "lava autos", "lavautos", "parqueaderos", "donde lucho", "automotriz", "aceites", "lubricantes", "polichado"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-4-1/locales",
+    },
+    {
+        id: 1,
+        url: "https://static.wixstatic.com/media/a4f6c8_64ce59ee473a425fa16fb179c5bfe736~mv2.png/v1/fill/w_248,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/homero.png",
+        keywords: ["homero pipe", "comidas rapidas", "hamburguesas", "salchipapas", "picadas", "empanadas", "ensaladas de frutas", "Helados", "heladerias", "fruterias"],
+        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-fruteria-pipe",
     },
 ];
 
