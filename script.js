@@ -477,12 +477,6 @@ const images = [
         keywords: ["Multiservicios", "lavaderos", "lavado", "carros", "motos", "lava autos", "lavautos", "parqueaderos", "donde lucho", "automotriz", "aceites", "lubricantes", "polichado"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-4-1/locales",
     },
-    {
-        id: 1,
-        url: "https://static.wixstatic.com/media/a4f6c8_64ce59ee473a425fa16fb179c5bfe736~mv2.png/v1/fill/w_248,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/homero.png",
-        keywords: ["homero pipe", "comidas rapidas", "hamburguesas", "salchipapas", "picadas", "empanadas", "ensaladas de frutas", "Helados", "heladerias", "fruterias"],
-        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-fruteria-pipe",
-    },
 ];
 
 // Lista de palabras comunes que no se deben considerar
