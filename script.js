@@ -18,7 +18,7 @@ const images = [
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_04ad6e3130d04f4dada287584d18cf01~mv2.png",
-        keywords: ["muebles js", "distribuidoras", "fabrica", "alfombras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
+        keywords: ["muebles js", "distribuidoras", "hogar", "fabrica", "alfombras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-8/locales",
     },
     {
@@ -198,7 +198,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_4bcccd598ee7498da97ccbd575eba3ba~mv2.png/v1/fill/w_720,h_360,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_4bcccd598ee7498da97ccbd575eba3ba~mv2.png",
-        keywords: ["estilo y confort", "fabricas", "distribuidoras", "alfombras", "tapetes", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
+        keywords: ["estilo y confort", "fabricas", "hogar", "distribuidoras", "alfombras", "tapetes", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-6-of-locales-2-2-2-1/locales",
     },
     {
@@ -228,7 +228,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_298b0c2860194052bb4228080268b056~mv2.png",
-        keywords: ["muebles hym", "fabricas", "distribuidoras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores", "electrodomesticos", "estufas", "televisores", "tv", "freidoras", "licuadoras", "espeaker", "altavoces", "ventiladores", "sanducheras", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas cillas"],
+        keywords: ["muebles hym", "fabricas", "hogar", "distribuidoras", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "toldillos", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores", "electrodomesticos", "estufas", "televisores", "tv", "freidoras", "licuadoras", "espeaker", "altavoces", "ventiladores", "sanducheras", "platos", "tapetes", "alfombras", "puff", "pooh", "mesas", "sillas cillas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-5/locales",
     },
     {
@@ -306,7 +306,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png",
-        keywords: ["nerkapaisa", "merca", "supermercado", "fruber", "fruver"],
+        keywords: ["merkapaisa", "merca", "supermercado", "fruber", "fruver"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales/locales",
     },
     {
@@ -396,7 +396,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_9f53f17a6b3549088fc969632b7f5d54~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_9f53f17a6b3549088fc969632b7f5d54~mv2.png",
-        keywords: ["The project", "ollas", "hollas", "bitrinas", "vitrinas", "estufas industriales", "hornos", "asadores", "caserolas", "sartenes", "pitadoras", "a presion"],
+        keywords: ["The project", "ollas", "hollas", "bitrinas", "vitrinas", "estufas industriales", "hornos", "asadores", "caserolas", "sartenes", "pitadoras", "a presion", "cocinas"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-11/locales",
     },
     {
@@ -482,6 +482,12 @@ const images = [
         url: "https://static.wixstatic.com/media/a4f6c8_64ce59ee473a425fa16fb179c5bfe736~mv2.png/v1/fill/w_248,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/homero.png",
         keywords: ["homero pipe", "comidas rapidas", "salchipapas", "picadas", "a domicilios", "hamburguesas", "perros calientes", "helados", "heladeria", "fruteria", "empanadas"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-fruteria-pipe",
+    },
+    {
+        id: 3,
+        url: "https://static.wixstatic.com/media/a4f6c8_6ae52191c4e74acb85e2d19a3aec5203~mv2.png/v1/fill/w_248,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_6ae52191c4e74acb85e2d19a3aec5203~mv2.png",
+        keywords: ["Eben-Ezer", "libreria", "libros", "biblias", "accesorios", "cuadernos personalizados", "mensajes cristianos biblicos", "posillos pocillos mugs", "cuadros decorativos", "miscelanea", "esferos lapiceros", "agendas", "diarios", "devocionales"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-4-1/locales",
     },
 ];
 
