@@ -305,12 +305,6 @@ const images = [
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_621e10603b9d43ec93a51658f6937cb6~mv2.png",
-        keywords: ["merkapaisa", "merca", "supermercado", "fruber", "fruver"],
-        link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales/locales",
-    },
-    {
-        id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_2fbaee65d3a545848c836c9479544808~mv2.png/v1/fill/w_560,h_275,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_2fbaee65d3a545848c836c9479544808~mv2.png",
         keywords: ["metales y servicios", "metales", "perfiles", "dobladora", "pintura", "construccion", "ornamentacion", "laminas", "cortadoras"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-7/locales",
@@ -474,7 +468,7 @@ const images = [
     {
         id: 1,
         url: "https://static.wixstatic.com/media/a4f6c8_b69ad1717ae74076b7044be5354277f7~mv2.png/v1/fill/w_313,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_b69ad1717ae74076b7044be5354277f7~mv2.png",
-        keywords: ["Multiservicios", "lavaderos", "lavado", "carros", "motos", "lava autos", "lavautos", "parqueaderos", "donde lucho", "automotriz", "aceites", "lubricantes", "polichado"],
+        keywords: ["Multiservicios donde lucho", "lavaderos", "lavado", "carros", "motos", "lava autos", "lavautos", "parqueaderos", "donde lucho", "automotriz", "aceites", "lubricantes", "polichado"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales-4-1/locales",
     },
     {
