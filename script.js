@@ -483,6 +483,12 @@ const images = [
         keywords: ["Eben-Ezer", "libreria", "libros", "biblias", "accesorios", "cuadernos personalizados", "mensajes cristianos biblicos", "posillos pocillos mugs", "cuadros decorativos", "miscelanea", "esferos lapiceros", "agendas", "diarios", "devocionales"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-4-1/locales",
     },
+    {
+        id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_3c691f9600f548d59cf41d2244f80976~mv2.png/v1/fill/w_228,h_116,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_3c691f9600f548d59cf41d2244f80976~mv2.png",
+        keywords: ["las delicias de la mami", "jugos naturales", "jugos verdes", "jugos", "helados", "pulpas de frutas", "batidos", "maracumango", "deportes", "gym", "salud", "alimentos"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-2-of-locales/locales",
+    },
 ];
 
 // Lista de palabras comunes que no se deben considerar
