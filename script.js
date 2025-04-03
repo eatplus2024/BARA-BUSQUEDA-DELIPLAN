@@ -263,9 +263,9 @@ const images = [
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_e1100ad7160d472c824433dd90571975~mv2.png/v1/fill/w_560,h_278,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_e1100ad7160d472c824433dd90571975~mv2.png",
-        keywords: ["la flaca", "montallantas", "despinchadero a domicilio", "despinchadero", "cambio de aceite", "de carros", "de motos", "bulcanizado", "culcanizado"],
-        link: "https://eatcomercial01.wixsite.com/website-1/copy-4-of-locales-7-2/locales",
+        url: "https://static.wixstatic.com/media/a4f6c8_9f323f52c2c54f049a458c117f20b8af~mv2.png/v1/fill/w_176,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_9f323f52c2c54f049a458c117f20b8af~mv2.png",
+        keywords: ["la talanquera del llano", "sombrearos", "ponchos", "llaneridades", "artesanias", "gorras", "correas", "llaveros", "cotizas", "chimu", "estuches en cuero para celular", "grasa de potro", "aceite de palma", "aceite de palo", "cuchillos", "hamacas"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-8/locales",
     },
     {
         id: 4,
