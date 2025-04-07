@@ -269,6 +269,12 @@ const images = [
     },
     {
         id: 4,
+        url: "https://static.wixstatic.com/media/a4f6c8_9f323f52c2c54f049a458c117f20b8af~mv2.png/v1/fill/w_176,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_9f323f52c2c54f049a458c117f20b8af~mv2.png",
+        keywords: ["tiendas artesanales paraiso llanero", "sombreros", "ponchos", "llaneridades", "artesanias", "gorras", "correas", "llaveros", "cotizas", "chimu", "estuches en cuero para celular", "grasa de potro", "aceite de palma", "aceite de palo", "cuchillos", "hamacas"],
+        link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-8/locales",
+    },
+    {
+        id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png",
         keywords: ["aqui si es tolima", "lechoneria", "lechona", "tamales", "desayunos", "restaurante", "domingo"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-d-lokos",
