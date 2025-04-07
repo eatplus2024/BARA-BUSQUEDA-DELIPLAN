@@ -275,9 +275,9 @@ const images = [
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_b6fba71f012044a7870feb54428df806~mv2.png",
+        url: "https://static.wixstatic.com/media/a4f6c8_cd797d724ba6431d962040afe747f07f~mv2.png/v1/fill/w_328,h_287,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/PARAISO-LLANERO.png",
         keywords: ["aqui si es tolima", "lechoneria", "lechona", "tamales", "desayunos", "restaurante", "domingo"],
-        link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-d-lokos",
+        link: "https://eatcomercial01.wixsite.com/website-1/locales-1/locales",
     },
     {
         id: 4,
