@@ -41,8 +41,8 @@ const images = [
     },
     {
         id: 2,
-        url: "https://static.wixstatic.com/media/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_88c5de1555be46739f788e56cc4214b0~mv2.png",
-        keywords: ["la esquina del sabor", "comidas rapidas", "carne al barril", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros calientes", "carnes", "pechuga a la plancha", "churrasco", "gratinada", "res", "cerdo", "carne gulach", "pollo apanado", "milanesa", "Chuleta", "bandeja minipaisa", "mojarra cachama costillitas costillas bbq argentino"],
+        url: "https://static.wixstatic.com/media/a4f6c8_cd96ad0059c745aea5d7827a98b7df43~mv2.png/v1/fill/w_328,h_287,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_cd96ad0059c745aea5d7827a98b7df43~mv2.png",
+        keywords: ["papas monkey", "la esquina del sabor", "papas locas", "comidas rapidas", "carne al barril", "salchipapas", "picadas", "a domicilios", "restaurantes", "hamburguesas", "perros calientes", "carnes", "pechuga a la plancha", "churrasco", "gratinada", "res", "cerdo", "carne gulach", "pollo apanado", "milanesa", "Chuleta", "bandeja minipaisa", "mojarra cachama costillitas costillas bbq argentino"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-barista-coffee-bread-2",
     },
     {
@@ -270,7 +270,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_cd797d724ba6431d962040afe747f07f~mv2.png/v1/fill/w_328,h_287,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/PARAISO-LLANERO.png",
-        keywords: ["tiendas artesanales paraiso llanero", "sombreros", "ponchos", "llaneridades", "artesanias", "gorras", "correas", "llaveros", "cotizas", "chimu", "estuches en cuero para celular", "grasa de potro", "aceite de palma", "aceite de palo", "cuchillos", "hamacas"],
+        keywords: ["tiendas artesanales paraiso llanero", "sombreros", "ponchos", "llaneridades", "artesanias", "gorras", "correas", "llaveros", "cotizas", "chimu", "estuches en cuero para celular", "grasa de potro", "cuchillos", "hamacas"],
         link: "https://eatcomercial01.wixsite.com/website-1/locales-1/locales",
     },
     {
@@ -300,7 +300,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_faa186bfa928467e98c0e50c1aa9521b~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_faa186bfa928467e98c0e50c1aa9521b~mv2.png",
-        keywords: ["Lubes bike", "taller de bicicletas", "taller", "alta gama", "siclas", "mantenimiento", "de segunda"],
+        keywords: ["Lubes bike", "ciclas", "taller de bicicletas", "taller", "alta gama", "siclas", "mantenimiento", "de segunda"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-1-1/locales",
     },
     {
