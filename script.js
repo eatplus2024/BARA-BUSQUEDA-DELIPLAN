@@ -245,12 +245,6 @@ const images = [
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_0f7b00e595954d53a13dd8f83a001847~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_0f7b00e595954d53a13dd8f83a001847~mv2.png",
-        keywords: ["spa peluqueria judith", "peluqueria", "spa", "sala de belleza", "peinados", "uñas", "pediquiur", "pedicure", "cortes", "cejas", "tintes"],
-        link: "https://eatcomercial01.wixsite.com/website-1/copy-5-of-locales-2-2-3/locales",
-    },
-    {
-        id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_8fbab53ae3d548d694ab319ec2701e19~mv2.png/v1/fill/w_560,h_280,al_c,lg_1,q_85,enc_avif,quality_auto/a4f6c8_8fbab53ae3d548d694ab319ec2701e19~mv2.png",
         keywords: ["restaurante king", "asaderos", "restaurantes", "comida", "poyo", "pollo asado", "pollo broaster", "pollo broster", "almuerzos", "a domicilios"],
         link: "https://eatcomercial01.wixsite.com/deliplan/copia-de-le-prova-burguer",
