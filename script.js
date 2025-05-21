@@ -24,7 +24,7 @@ const images = [
     {
         id: 2,
         url: "https://static.wixstatic.com/media/a4f6c8_9f8674dbbac24999942ec3110f632618~mv2.png/v1/fill/w_367,h_321,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_9f8674dbbac24999942ec3110f632618~mv2.png",
-        keywords: ["rezio muebles", "recio", "distribuidoras", "hogar", "fabrica", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
+        keywords: ["rezio muebles", "recio", "resio", "distribuidoras", "hogar", "fabrica", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
         link: "https://eatcomercial01.wixsite.com/website-1/locales-2/locales",
     },
     {
