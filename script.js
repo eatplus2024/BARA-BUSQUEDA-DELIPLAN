@@ -22,6 +22,12 @@ const images = [
         link: "https://eatcomercial01.wixsite.com/website-1/copy-of-locales-8/locales",
     },
     {
+        id: 2,
+        url: "https://static.wixstatic.com/media/a4f6c8_04ad6e3130d04f4dada287584d18cf01~mv2.png",
+        keywords: ["rezio muebles", "recio", "distribuidoras", "hogar", "fabrica", "muebles", "camas", "colchones", "espaldares", "sabanas", "tendidos", "artesanias", "cuadros", "sofas", "peinadores", "nocheros", "semanarios", "closets", "salas", "comedores"],
+        link: "https://eatcomercial01.wixsite.com/website-1/locales-2/locales",
+    },
+    {
         id: 3,
         url: "https://static.wixstatic.com/media/a4f6c8_012863f5fa3b4634b17feaae5e57a545~mv2.png/v1/fill/w_600,h_300,al_c,q_85,enc_avif,quality_auto/a4f6c8_012863f5fa3b4634b17feaae5e57a545~mv2.png",
         keywords: ["domiciliarios", "domicilios", "comidas", "oscar torres"],
