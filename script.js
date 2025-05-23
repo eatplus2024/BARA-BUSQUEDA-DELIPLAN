@@ -174,7 +174,7 @@ const images = [
     {
         id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_030540f348f8479b8d57fb8c0c9144ff~mv2.png/v1/fill/w_374,h_326,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_030540f348f8479b8d57fb8c0c9144ff~mv2.png",
-        keywords: ["reverdecer", "Multivitaminicos fibra aceites corporales para masajes propoleo miel polen jarabes vitaminas para el cabello potenciadores energizantes pomadas analgecicas jabones varices cicatricez cicartrizante purgantes desparacitantes calcio citrato de magnesio vinagre de manzana curcuma esencias florales jugo de uva chancapiedra cartilago de tiburon limpiador arteriovenoso drenador epatico resveratrol yingoviloba Ginkgo bilob yingoviloa complejo b granola gourmet galletas de avena dulces de miel theramiel para refrescar la garganta"],
+        keywords: ["reverdecer", "tienda naturista", "Multivitaminicos fibra aceites corporales para masajes propoleo miel polen jarabes vitaminas para el cabello potenciadores energizantes pomadas analgecicas jabones varices cicatricez cicartrizante purgantes desparacitantes calcio citrato de magnesio vinagre de manzana curcuma esencias florales jugo de uva chancapiedra cartilago de tiburon limpiador arteriovenoso drenador epatico resveratrol yingoviloba Ginkgo bilob yingoviloa complejo b granola gourmet galletas de avena dulces de miel theramiel para refrescar la garganta"],
         link: "https://v0-static-responsive-page.vercel.app/",
     },
     {
