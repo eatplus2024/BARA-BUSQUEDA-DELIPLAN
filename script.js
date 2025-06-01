@@ -493,7 +493,7 @@ const images = [
         id: 3,
         url: "https://static.wixstatic.com/media/a4f6c8_6ae52191c4e74acb85e2d19a3aec5203~mv2.png/v1/fill/w_248,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_6ae52191c4e74acb85e2d19a3aec5203~mv2.png",
         keywords: ["Eben-Ezer", "libreria", "libros", "biblias", "accesorios", "cuadernos personalizados", "mensajes cristianos biblicos", "posillos pocillos mugs", "cuadros decorativos", "miscelanea", "esferos lapiceros", "agendas", "diarios", "devocionales"],
-        link: "https://eatcomercial01.wixsite.com/website-1/copy-3-of-locales-4-1/locales",
+        link: "https://v0-eben-ezer-website.vercel.app/",
     },
     {
         id: 4,
