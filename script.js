@@ -455,12 +455,6 @@ const images = [
     },
     {
         id: 4,
-        url: "https://static.wixstatic.com/media/a4f6c8_14391915daf64beda7cfa5e02858f4f1~mv2.png/v1/fill/w_304,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_14391915daf64beda7cfa5e02858f4f1~mv2.png",
-        keywords: ["Sarat sport", "calzado", "zapatos", "zapatillas", "sandalias", "colegiales", "para el colegio", "femeninos", "femeninas", "para mujeres", "masculinos", "chanclas", "sandalias", "tacones", "para niños", "para niñas", "para caballeros", "para hombres", "deportivos"],
-        link: "https://eatcomercial01.wixsite.com/website-1/copy-5-of-locales-11/locales",
-    },
-    {
-        id: 4,
         url: "https://static.wixstatic.com/media/a4f6c8_d3f7a4127abf4062b297c875c3bbc734~mv2.png/v1/fill/w_259,h_134,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4f6c8_d3f7a4127abf4062b297c875c3bbc734~mv2.png",
         keywords: ["Estucos y masillas", "pinturas", "aerosol", "espray", "lijas", "electricos", "electricidad", "electrica", "tuvos", "tubos", "codos", "sifones", "cifones", "brochas", "tornillos", "graniplas", "pegantes", "fabricas", "ferreterias", "materiales", "esmaltes", "anticorrosivos", "ceramicos", "seramicos", "superpega", "herramientas", "llaves", "metros", "cintas de enmascarar", "rodillos", "lamparas", "sintas", "silicona", "cilicona", "brocas", "discos para pulidadora", "espatulas", "niveles", "guantes", "gafas", "pistolas", "rodillos", "alicates", "pinsas", "hombresolos"],
         link: "https://eatcomercial01.wixsite.com/website-1/copy-6-of-locales-11/locales",
